@@ -17,13 +17,14 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <climits>
-
 #include <srecord/interval.h>
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
 #include <srecord/input.h>
 #include <srecord/input/interval.h>
 
+#include <climits>
+#include <cstdint>
 
 srecord::interval
 srecord::arglex_tool::get_interval_factor(const char *name)

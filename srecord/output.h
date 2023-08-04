@@ -19,11 +19,13 @@
 #ifndef SRECORD_OUTPUT_H
 #define SRECORD_OUTPUT_H
 
-#include <cstdarg>
-#include <string>
-#include <memory>
-
 #include <srecord/format_printf.h>
+
+#include <cstdarg>
+#include <cstddef>
+#include <cstdint>
+#include <memory>
+#include <string>
 
 namespace srecord {
 

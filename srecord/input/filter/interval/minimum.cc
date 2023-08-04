@@ -18,6 +18,11 @@
 //
 
 #include <srecord/input/filter/interval/minimum.h>
+#include <srecord/input/filter/interval.h>
+#include <srecord/interval.h>
+
+#include <srecord/endian.h>
+#include <srecord/input.h>
 
 
 srecord::input_filter_interval_minimum::input_filter_interval_minimum(

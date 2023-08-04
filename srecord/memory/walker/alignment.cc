@@ -16,9 +16,9 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cassert>
-
 #include <srecord/memory/walker/alignment.h>
+
+#include <cassert>
 
 
 srecord::memory_walker_alignment::memory_walker_alignment(unsigned a_multiple) :

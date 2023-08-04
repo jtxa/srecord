@@ -28,12 +28,16 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_STM32_H
 #define SRECORD_INPUT_FILTER_MESSAGE_STM32_H
 
-#include <srecord/stm32.h>
 #include <srecord/endian.h>
 #include <srecord/input/filter/message.h>
+#include <srecord/input.h>
+#include <cstdint>
 
 namespace srecord
 {
+class arglex_tool;
+class memory;
+class record;
 
 /**
   * The input_filter_message_stm32 class represents the code required to

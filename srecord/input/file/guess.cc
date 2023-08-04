@@ -16,8 +16,6 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
-
 #include <srecord/arglex.h>
 #include <srecord/quit/exception.h>
 #include <srecord/input/file/aomf.h>
@@ -62,6 +60,11 @@
 #include <srecord/input/file/wilson.h>
 #include <srecord/record.h>
 #include <srecord/sizeof.h>
+#include <memory>
+#include <string>
+
+#include <srecord/input/file.h>
+#include <srecord/quit.h>
 
 
 typedef srecord::input_file::pointer (*func_p)(const std::string &file_name);

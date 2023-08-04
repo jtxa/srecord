@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_FILE_FOUR_PACKED_CODE_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_four_packed_code represents an input file in

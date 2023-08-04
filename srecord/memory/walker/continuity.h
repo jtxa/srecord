@@ -21,6 +21,8 @@
 #define SRECORD_MEMORY_WALKER_CONTINUITY_H
 
 #include <srecord/memory/walker.h>
+#include <cstdint>
+#include <memory>
 
 namespace srecord
 {

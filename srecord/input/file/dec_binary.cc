@@ -20,6 +20,8 @@
 #include <srecord/input/file/dec_binary.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 srecord::input_file_dec_binary::input_file_dec_binary(
         const std::string &a_file_name) :

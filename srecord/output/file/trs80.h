@@ -23,6 +23,11 @@
 #define SRECORD_OUTPUT_FILE_TRS80_H
 
 #include <srecord/output/file.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {

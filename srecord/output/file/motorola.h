@@ -21,9 +21,15 @@
 #define SRECORD_OUTPUT_FILE_MOTOROLA_H
 
 #include <srecord/output/file.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {
+class arglex_tool;
 
 /**
   * The srecord::output_file_motorola class is used to represent an output

@@ -22,11 +22,13 @@
 
 
 #include <srecord/endian.h>
-#include <srecord/interval.h>
 #include <srecord/input/filter.h>
-#include <srecord/record.h>
+#include <srecord/input.h>
+
+#include <cstdint>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_filter_checksum class is an abstraction of various

@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_GOWIN_FS_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_gowin_fs class is used to represent the parse

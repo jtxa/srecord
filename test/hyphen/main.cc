@@ -16,14 +16,16 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-#include <cstdlib>
-#include <getopt.h>
-#include <string>
-
 #include <srecord/progname.h>
 #include <srecord/quit.h>
 #include <srecord/versn_stamp.h>
+
+#include <getopt.h>
+
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
+#include <string>
 
 
 static int number_of_errors;

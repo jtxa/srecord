@@ -25,13 +25,9 @@
 //      Peter Miller.
 //
 
-#include <cassert>
-#include <cstdio>
-
-#include <srecord/arglex.h>
 #include <srecord/memory/walker/stm32.h>
-#include <srecord/output.h>
 
+#include <srecord/stm32.h>
 
 srecord::memory_walker_stm32::pointer
 srecord::memory_walker_stm32::create()

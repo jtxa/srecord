@@ -20,6 +20,8 @@
 #define SRECORD_MEMORY_WALKER_ALIGNMENT_H
 
 #include <srecord/memory/walker.h>
+#include <cstdint>
+#include <memory>
 
 namespace srecord
 {

@@ -22,6 +22,11 @@
 
 #include <srecord/output/file.h>
 #include <srecord/interval.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {

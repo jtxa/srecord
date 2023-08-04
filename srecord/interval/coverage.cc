@@ -19,6 +19,7 @@
 
 #include <srecord/interval.h>
 
+#include <cstddef>
 
 srecord::interval::long_data_t
 srecord::interval::coverage()

@@ -20,6 +20,10 @@
 #include <srecord/arglex/tool.h>
 #include <srecord/input/filter/byte_swap.h>
 #include <srecord/record.h>
+#include <srecord/input/filter.h>
+#include <cstdint>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_byte_swap::input_filter_byte_swap(

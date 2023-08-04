@@ -18,6 +18,10 @@
 //
 
 #include <srecord/input/filter/checksum/negative.h>
+#include <srecord/input/filter/checksum.h>
+
+#include <srecord/endian.h>
+#include <srecord/input.h>
 
 
 srecord::input_filter_checksum_negative::input_filter_checksum_negative(

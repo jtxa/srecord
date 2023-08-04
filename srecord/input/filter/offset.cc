@@ -19,6 +19,9 @@
 
 #include <srecord/input/filter/offset.h>
 #include <srecord/record.h>
+#include <srecord/input/filter.h>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_offset::input_filter_offset(

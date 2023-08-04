@@ -16,12 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdlib>
-#include <cstring>
-
 #include <srecord/defcon.h>
 #include <srecord/sizeof.h>
 
+#include <cstdlib>
+#include <cstring>
 
 const char *
 srecord::text_from_defcon(defcon_t x)

@@ -20,6 +20,9 @@
 #include <srecord/input/file/mips_flash.h>
 #include <srecord/record.h>
 
+#include <srecord/endian.h>
+#include <srecord/input/file.h>
+
 
 srecord::input_file_mips_flash::input_file_mips_flash(
     const std::string &a_file_name,

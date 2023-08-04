@@ -20,8 +20,10 @@
 #define SRECORD_INPUT_FILE_WILSON_H
 
 #include <srecord/input/file.h>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_wilson class is used to represent the parse state

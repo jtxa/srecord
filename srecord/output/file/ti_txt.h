@@ -21,6 +21,11 @@
 #define SRECORD_OUTPUT_FILE_ti_txt_H
 
 #include <srecord/output/file.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {

@@ -16,11 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
-
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/ti_tagged_16.h>
 #include <srecord/record.h>
+#include <cctype>
+
+#include <srecord/input/file.h>
 
 srecord::input_file_ti_tagged_16::input_file_ti_tagged_16(
     const std::string &a_file_name

@@ -18,6 +18,10 @@
 //
 
 #include <srecord/input/generator/repeat.h>
+#include <srecord/input/generator.h>
+
+#include <srecord/input.h>
+#include <srecord/interval.h>
 
 
 srecord::input_generator_repeat::~input_generator_repeat()

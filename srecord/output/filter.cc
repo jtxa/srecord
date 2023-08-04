@@ -17,6 +17,14 @@
 //
 
 #include <srecord/output/filter.h>
+#include <memory>
+
+#include <srecord/output.h>
+
+namespace srecord {
+class arglex_tool;
+class record;
+}  // namespace srecord
 
 
 srecord::output_filter::output_filter(const output::pointer &a_deeper) :

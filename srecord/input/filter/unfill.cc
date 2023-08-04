@@ -19,6 +19,11 @@
 
 
 #include <srecord/input/filter/unfill.h>
+#include <srecord/input/filter.h>
+#include <srecord/record.h>
+#include <cstdint>
+
+#include <srecord/input.h>
 
 srecord::input_filter_unfill::input_filter_unfill(
         const srecord::input::pointer &a1, int a2, int a3) :

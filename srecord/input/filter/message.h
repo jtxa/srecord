@@ -21,9 +21,13 @@
 
 #include <srecord/input/filter.h>
 #include <srecord/memory.h>
+#include <cstdint>
+
+#include <srecord/input.h>
 
 namespace srecord
 {
+class record;
 
 /**
   * The srecord::input_filter_message class is used to represent an abstract

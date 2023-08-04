@@ -18,6 +18,7 @@
 
 #include <srecord/memory/walker/gcrypt.h>
 
+#include <srecord/memory/walker.h>
 
 srecord::memory_walker_gcrypt::memory_walker_gcrypt(gcry_md_hd_t a_handle) :
     handle(a_handle)

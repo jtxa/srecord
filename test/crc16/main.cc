@@ -16,16 +16,18 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-#include <cstdlib>
-#include <unistd.h>
-#include <getopt.h>
-
 #include <srecord/bitrev.h>
 #include <srecord/crc16.h>
 #include <srecord/progname.h>
 #include <srecord/quit.h>
 #include <srecord/versn_stamp.h>
+
+#include <getopt.h>
+#include <unistd.h>
+
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
 
 
 static void

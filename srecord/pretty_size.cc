@@ -17,10 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-
 #include <srecord/pretty_size.h>
 
+#include <cstdio>
 
 std::string
 srecord::pretty_size(int64_t x, int32_t width)

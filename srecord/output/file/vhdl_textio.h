@@ -21,9 +21,14 @@
 
 #include <srecord/output/file.h>
 #include <srecord/record.h>
+#include <stddef.h>
+#include <string>
+
+#include <srecord/output.h>
 
 namespace srecord
 {
+class arglex_tool;
 
 /**
   * The srecord::output_file_vhdl_textio class is used to represent the

@@ -20,6 +20,8 @@
 #include <srecord/input/file/tektronix_extended.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 srecord::input_file_tektronix_extended::input_file_tektronix_extended(
     const std::string &a_file_name
 ) :

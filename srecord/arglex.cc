@@ -16,19 +16,23 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
+
+#include <srecord/progname.h>
+#include <srecord/quit.h>
+#include <srecord/versn_stamp.h>
+
+#include <unistd.h>
+
 #include <cassert>
 #include <cctype>
 #include <cerrno>
+#include <cstdarg>
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
-#include <unistd.h>
-
-#include <srecord/arglex.h>
-#include <srecord/progname.h>
-#include <srecord/quit.h>
-#include <srecord/versn_stamp.h>
 
 // Cygwin's mingw has the execvp prototype in the wrong place.
 #ifdef __MSVCRT__

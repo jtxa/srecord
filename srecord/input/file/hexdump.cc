@@ -20,6 +20,8 @@
 #include <srecord/input/file/hexdump.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 srecord::input_file_hexdump::input_file_hexdump(const std::string &filename) :
     input_file(filename)
 {

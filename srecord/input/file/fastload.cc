@@ -16,11 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/fastload.h>
 #include <srecord/record.h>
+#include <cstring>
+
+#include <srecord/input/file.h>
 
 
 srecord::input_file_fastload::input_file_fastload(

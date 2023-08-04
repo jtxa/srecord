@@ -18,6 +18,13 @@
 //
 
 #include <srecord/input/filter.h>
+#include <memory>
+
+#include <srecord/input.h>
+
+namespace srecord {
+class record;
+}  // namespace srecord
 
 
 srecord::input_filter::input_filter(srecord::input::pointer arg) :

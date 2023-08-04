@@ -19,9 +19,12 @@
 
 #include <srecord/output/file/ti_tagged.h>
 #include <srecord/record.h>
-
+#include <stddef.h>
+#include <srecord/output/file.h>
 #include <cassert>
 #include <cctype>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_ti_tagged::~output_file_ti_tagged()

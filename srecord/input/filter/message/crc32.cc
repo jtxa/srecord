@@ -21,6 +21,13 @@
 #include <srecord/input/filter/message/crc32.h>
 #include <srecord/memory/walker/crc32.h>
 #include <srecord/record.h>
+#include <srecord/crc32.h>
+#include <srecord/endian.h>
+#include <srecord/input/filter/message.h>
+#include <srecord/memory.h>
+#include <memory>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_message_crc32::input_filter_message_crc32(

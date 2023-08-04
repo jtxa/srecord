@@ -22,6 +22,9 @@
 
 #include <srecord/input/filter/checksum.h>
 
+#include <srecord/endian.h>
+#include <srecord/input.h>
+
 namespace srecord {
 
 /**

@@ -20,6 +20,9 @@
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/emon52.h>
 #include <srecord/record.h>
+#include <cstdint>
+
+#include <srecord/input/file.h>
 
 srecord::input_file_emon52::input_file_emon52(const std::string &a_file_name) :
     srecord::input_file(a_file_name)

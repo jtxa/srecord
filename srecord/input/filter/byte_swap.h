@@ -22,8 +22,12 @@
 
 #include <srecord/input/filter.h>
 #include <srecord/record.h>
+#include <stddef.h>
+
+#include <srecord/input.h>
 
 namespace srecord {
+class arglex_tool;
 
 /**
   * The srecord::input_filter_byte_swap class is used to reverse the

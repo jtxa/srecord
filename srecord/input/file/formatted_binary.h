@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_FILE_FORMATTED_BINARY_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_formatted_binary class is used to represent the

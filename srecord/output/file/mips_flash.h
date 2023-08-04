@@ -21,6 +21,12 @@
 
 #include <srecord/output/file.h>
 #include <srecord/endian.h>
+#include <stddef.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord {
 

@@ -16,12 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/record.h>
 
 #include <cassert>
 #include <cstring>
-
-#include <srecord/record.h>
-
 
 srecord::record::record(const srecord::record &arg) :
     type(arg.type),

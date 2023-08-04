@@ -23,7 +23,10 @@
 #include <srecord/interval.h>
 #include <srecord/input/filter.h>
 
+#include <srecord/input.h>
+
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_filter_interval class is used to represent a filter

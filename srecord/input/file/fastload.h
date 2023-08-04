@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_FILE_FASTLOAD_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The fastload class is used to parse an LSI Logic Fast Load format file.

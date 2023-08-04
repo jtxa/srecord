@@ -21,8 +21,11 @@
 #define SRECORD_OUTPUT_FILE_DEC_BINARY_H
 
 #include <srecord/output/file.h>
-
 #include <srecord/record.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
 
 namespace srecord
 {

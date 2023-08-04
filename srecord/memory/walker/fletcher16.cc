@@ -17,8 +17,9 @@
 //
 
 #include <srecord/memory/walker/fletcher16.h>
-#include <srecord/output.h>
+#include <srecord/fletcher16.h>
 
+#include <srecord/endian.h>
 
 srecord::memory_walker_fletcher16::memory_walker_fletcher16(
     int a_sum1,

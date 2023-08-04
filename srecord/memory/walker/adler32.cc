@@ -18,7 +18,8 @@
 //
 
 #include <srecord/memory/walker/adler32.h>
-#include <srecord/output.h>
+
+#include <srecord/adler32.h>
 
 
 srecord::memory_walker_adler32::pointer

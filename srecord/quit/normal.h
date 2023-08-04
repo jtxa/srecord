@@ -20,6 +20,7 @@
 #define SRECORD_QUIT_NORMAL_H
 
 #include <srecord/quit.h>
+#include <stdarg.h>
 
 namespace srecord
 {

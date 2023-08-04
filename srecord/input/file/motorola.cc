@@ -20,6 +20,9 @@
 #include <srecord/input/file/motorola.h>
 #include <srecord/record.h>
 
+#include <srecord/arglex.h>
+#include <srecord/input/file.h>
+
 srecord::input_file_motorola::input_file_motorola(
     const std::string &a_file_name
 ) :

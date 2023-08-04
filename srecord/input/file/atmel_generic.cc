@@ -16,11 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
-
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/atmel_generic.h>
 #include <srecord/record.h>
+#include <cstdint>
+
+#include <srecord/endian.h>
+#include <srecord/input/file.h>
 
 
 srecord::input_file_atmel_generic::input_file_atmel_generic(

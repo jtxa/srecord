@@ -17,17 +17,15 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cassert>
-#include <cerrno>
-#include <cstdio>
-#include <iostream>
-#include <sys/types.h>
 #include <sys/stat.h>
-
 #include <srecord/arglex.h>
 #include <srecord/sizeof.h>
 #include <srecord/output/file.h>
 #include <srecord/record.h>
+#include <stdarg.h>
+#include <cassert>
+#include <cerrno>
+#include <cstdio>
 
 
 bool srecord::output_file::enable_header_flag = true;

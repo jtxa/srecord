@@ -16,11 +16,15 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-#include <cstdlib>
+#include <srecord/endian.h>
+#include <srecord/fletcher16.h>
+
 #include <unistd.h>
 
-#include <srecord/fletcher16.h>
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
+
 
 
 static void

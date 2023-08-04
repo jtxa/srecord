@@ -20,6 +20,8 @@
 #define SRECORD_INPUT_FILE_HEXDUMP_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
 

@@ -19,6 +19,10 @@
 
 #include <srecord/input/filter/xor.h>
 #include <srecord/record.h>
+#include <stddef.h>
+#include <srecord/input/filter.h>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_xor::input_filter_xor(const srecord::input::pointer &a1,

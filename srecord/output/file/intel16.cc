@@ -19,6 +19,9 @@
 
 #include <srecord/output/file/intel16.h>
 #include <srecord/record.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_intel16::~output_file_intel16()

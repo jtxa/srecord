@@ -20,8 +20,12 @@
 #define SRECORD_OUTPUT_FILTER_H
 
 #include <srecord/output.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class arglex_tool;
+class record;
 
 /**
   * The output_filter class is used to represent a generic output

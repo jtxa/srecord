@@ -20,8 +20,11 @@
 #define LIB_INPUT_FILE_STEWIE_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_stewie class is used to represent the parse

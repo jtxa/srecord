@@ -20,8 +20,10 @@
 #define SRECORD_INPUT_CATENATE_H
 
 #include <srecord/input.h>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_catenate class is used to represent an input source

@@ -17,11 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-#include <iostream>
-
 #include <srecord/interval.h>
 
+#include <cstdio>
+#include <iostream>
 
 //
 // NAME

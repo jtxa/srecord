@@ -19,6 +19,9 @@
 
 #include <srecord/output/file/formatted_binary.h>
 #include <srecord/record.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_formatted_binary::~output_file_formatted_binary()

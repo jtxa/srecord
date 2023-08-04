@@ -17,9 +17,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <iostream>
-
 #include <srecord/arglex/tool.h>
+
+#include <srecord/arglex.h>
+#include <srecord/defcon.h>
 #include <srecord/input/file.h>
 
 

@@ -21,6 +21,11 @@
 #define SRECORD_OUTPUT_FILE_FOUR_PACKED_CODE_H
 
 #include <srecord/output/file.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {

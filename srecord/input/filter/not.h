@@ -22,8 +22,11 @@
 
 #include <srecord/input/filter.h>
 
+#include <srecord/input.h>
+
 namespace srecord
 {
+class record;
 
 /**
   * The srecord::input_filter_not class is used to represent an input stream

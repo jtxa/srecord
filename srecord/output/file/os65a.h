@@ -25,6 +25,10 @@
 #define SRECORD_OUTPUT_FILE_OS65A_H
 
 #include <srecord/output/file.h>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {

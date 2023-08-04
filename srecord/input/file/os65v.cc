@@ -20,6 +20,8 @@
 #include <srecord/input/file/os65v.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 srecord::input_file_os65v::input_file_os65v(const std::string &a_file_name) :
     srecord::input_file(a_file_name)

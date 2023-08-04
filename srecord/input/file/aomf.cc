@@ -22,6 +22,8 @@
 #include <srecord/input/file/aomf.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 #define O96_Mod_Hdr                             0x02
 #define O96_Mod_End                             0x04

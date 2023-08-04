@@ -20,6 +20,8 @@
 #include <srecord/input/file/formatted_binary.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 srecord::input_file_formatted_binary::input_file_formatted_binary(
     const std::string &a_file_name

@@ -21,6 +21,8 @@
 
 #include <srecord/quit.h>
 
+#include <cstdarg>
+
 namespace srecord
 {
 

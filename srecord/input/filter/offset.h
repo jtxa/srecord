@@ -22,8 +22,11 @@
 
 #include <srecord/input/filter.h>
 
+#include <srecord/input.h>
+
 namespace srecord
 {
+class record;
 
 /**
   * The srecord::input_filter_offset class is used to represent a filter

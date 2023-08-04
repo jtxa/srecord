@@ -20,6 +20,8 @@
 #include <srecord/input/file/four_packed_code.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 srecord::input_file_four_packed_code::input_file_four_packed_code(
     const std::string &a_file_name
 ) :

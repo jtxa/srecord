@@ -20,9 +20,12 @@
 #define SRECORD_INPUT_FILE_INTEL16_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord
 {
+class record;
 
 /**
   * The srecord::input_file_intel16 class is used to represent the parse state

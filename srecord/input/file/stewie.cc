@@ -20,6 +20,8 @@
 #include <srecord/input/file/stewie.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 srecord::input_file_stewie::input_file_stewie(const std::string &a_file_name) :
     input_file(a_file_name)

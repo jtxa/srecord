@@ -19,9 +19,10 @@
 #ifndef SRECORD_INPUT_FILE_H
 #define SRECORD_INPUT_FILE_H
 
-#include <string>
-
 #include <srecord/input.h>
+#include <string>
+#include <cstdint>
+#include <memory>
 
 namespace srecord {
 

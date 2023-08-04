@@ -17,8 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input.h>
 #include <srecord/input/filter/and.h>
 #include <srecord/record.h>
+#include <stddef.h>
+
+#include <srecord/input/filter.h>
 
 
 srecord::input_filter_and::input_filter_and(const input::pointer &a1,

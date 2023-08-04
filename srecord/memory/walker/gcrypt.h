@@ -19,7 +19,7 @@
 #ifndef SRECORD_MEMORY_WALKER_GCRYPT_H
 #define SRECORD_MEMORY_WALKER_GCRYPT_H
 
-#include <config.h>
+#include <config.h> // IWYU pragma: keep
 #ifdef HAVE_LIBGCRYPT
 #include <gcrypt.h>
 #else
@@ -27,6 +27,7 @@ typedef void *gcry_md_hd_t;
 #endif
 
 #include <srecord/memory/walker.h>
+#include <cstdint>
 
 namespace srecord
 {

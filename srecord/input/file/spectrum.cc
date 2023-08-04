@@ -16,11 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
-
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/spectrum.h>
 #include <srecord/record.h>
+#include <cctype>
+#include <cstdint>
+
+#include <srecord/input/file.h>
 
 srecord::input_file_spectrum::input_file_spectrum(
     const std::string &a_file_name

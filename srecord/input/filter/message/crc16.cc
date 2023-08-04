@@ -22,6 +22,14 @@
 #include <srecord/memory.h>
 #include <srecord/memory/walker/crc16.h>
 #include <srecord/record.h>
+#include <srecord/arglex.h>
+#include <srecord/crc16.h>
+#include <srecord/endian.h>
+#include <srecord/input/filter/message.h>
+#include <memory>
+#include <string>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_message_crc16::input_filter_message_crc16(

@@ -19,6 +19,9 @@
 
 #include <srecord/output/file/tektronix.h>
 #include <srecord/record.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_tektronix::output_file_tektronix(

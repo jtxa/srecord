@@ -16,10 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/output/file/stewie.h>
 #include <srecord/record.h>
+#include <srecord/output/file.h>
+#include <cstring>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_stewie::~output_file_stewie()

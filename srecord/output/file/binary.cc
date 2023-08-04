@@ -19,6 +19,10 @@
 
 #include <srecord/output/file/binary.h>
 #include <srecord/record.h>
+#include <srecord/output/file.h>
+#include <cstdint>
+
+#include <srecord/output.h>
 
 srecord::output_file_binary::output_file_binary(
     const std::string &a_file_name

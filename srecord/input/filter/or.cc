@@ -19,6 +19,10 @@
 
 #include <srecord/input/filter/or.h>
 #include <srecord/record.h>
+#include <stddef.h>
+#include <srecord/input/filter.h>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_or::input_filter_or(const srecord::input::pointer &a1,

@@ -21,8 +21,10 @@
 
 #include <srecord/endian.h>
 #include <srecord/input/file.h>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_atmel_generic class is used to represent the

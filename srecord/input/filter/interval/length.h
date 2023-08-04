@@ -22,6 +22,9 @@
 
 #include <srecord/input/filter/interval.h>
 
+#include <srecord/endian.h>
+#include <srecord/input.h>
+
 namespace srecord {
 
 /**

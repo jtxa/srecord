@@ -17,13 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cerrno>
-#include <cstring>
-#include <iostream>
-
 #include <srecord/input.h>
-#include <srecord/record.h>
+
+#include <srecord/quit.h>
 #include <srecord/quit/prefix.h>
+
+#include <cstdarg>
 
 
 srecord::input::input() :

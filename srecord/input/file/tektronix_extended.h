@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_FILE_TEKTRONIX_EXTENDED_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_tektronix_extended class is used to represent

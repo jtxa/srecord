@@ -21,8 +21,11 @@
 
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_os65v class is used to represent the input state

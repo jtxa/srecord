@@ -16,9 +16,9 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cassert>
-
 #include <srecord/fletcher16.h>
+
+#include <srecord/endian.h>
 
 //
 // http://en.wikipedia.org/wiki/Fletcher%27s_checksum

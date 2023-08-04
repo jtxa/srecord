@@ -21,9 +21,13 @@
 #define SRECORD_INPUT_FILTER_SEQUENCE_H
 
 #include <srecord/input/filter.h>
+#include <cstdint>
+
+#include <srecord/input.h>
 
 namespace srecord
 {
+class record;
 
 /**
   * The srecord::input_filter_sequence class is used to represent an input

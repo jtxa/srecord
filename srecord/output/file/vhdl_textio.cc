@@ -17,10 +17,11 @@
 //
 
 #include <srecord/arglex/tool.h>
-#include <srecord/interval.h>
 #include <srecord/output/file/vhdl_textio.h>
 #include <srecord/record.h>
-#include <srecord/progname.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_vhdl_textio::output_file_vhdl_textio(

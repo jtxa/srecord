@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_FILE_TI_TAGGED_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_ti_tagged class is used to represent the parse

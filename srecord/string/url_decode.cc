@@ -16,10 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <sstream>
-
 #include <srecord/string.h>
 
+#include <cstdint>
+#include <sstream>
+#include <string>
 
 static bool
 unhex_nibble(char c, int &result)

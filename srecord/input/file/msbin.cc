@@ -19,13 +19,14 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <algorithm>
-#include <cassert>
-#include <limits>
-#include <cstring>
-
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/msbin.h>
+#include <algorithm>
+#include <cassert>
+#include <cstring>
+
+#include <srecord/input/file.h>
+#include <srecord/record.h>
 
 
 srecord::input_file_msbin::~input_file_msbin()

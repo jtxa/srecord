@@ -21,11 +21,17 @@
 #ifndef SRECORD_OUTPUT_FILE_C_H
 #define SRECORD_OUTPUT_FILE_C_H
 
-#include <srecord/output/file.h>
 #include <srecord/interval.h>
+#include <srecord/output.h>
+#include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <string>
+
 
 namespace srecord
 {
+class arglex_tool;
 
 /**
   * The srecord::output_file_c class is used to represent an output file

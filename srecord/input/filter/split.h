@@ -22,6 +22,9 @@
 
 #include <srecord/input/filter.h>
 #include <srecord/record.h>
+#include <stddef.h>
+
+#include <srecord/input.h>
 
 namespace srecord
 {

@@ -23,9 +23,15 @@
 #include <srecord/crc32.h>
 #include <srecord/endian.h>
 #include <srecord/input/filter/message.h>
+#include <cstdint>
+
+#include <srecord/input.h>
 
 namespace srecord
 {
+class arglex_tool;
+class memory;
+class record;
 
 /**
   * The srecord::input_filter_message_crc32 class is used to represent the

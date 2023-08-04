@@ -21,6 +21,12 @@
 #define SRECORD_OUTPUT_FILE_AOMF_H
 
 #include <srecord/output/file.h>
+#include <stddef.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {

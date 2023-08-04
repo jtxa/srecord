@@ -19,6 +19,9 @@
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/tektronix.h>
 #include <srecord/record.h>
+#include <cstdint>
+
+#include <srecord/input/file.h>
 
 srecord::input_file_tektronix::input_file_tektronix(
     const std::string &a_filename

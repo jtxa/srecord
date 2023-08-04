@@ -19,6 +19,9 @@
 
 #include <srec_cat/arglex3.h>
 
+#include <srecord/arglex.h>
+#include <srecord/arglex/tool.h>
+
 
 srec_cat_arglex3::srec_cat_arglex3(int argc, char **argv) :
     arglex_tool(argc, argv)

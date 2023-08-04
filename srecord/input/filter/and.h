@@ -22,7 +22,10 @@
 
 #include <srecord/input/filter.h>
 
+#include <srecord/input.h>
+
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_filter_and class is used to represent the input state

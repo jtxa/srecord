@@ -16,10 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <sstream>
-#include <cstring>
-
 #include <srecord/string.h>
+
+#include <cctype>
+#include <cstdint>
+#include <sstream>
+#include <string>
 
 
 static char

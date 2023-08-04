@@ -17,10 +17,15 @@
 //
 
 #include <srecord/quit.h>
-#include <srecord/sizeof.h>
 #include <srecord/input/filter/message/gcrypt.h>
-#include <srecord/memory/walker/gcrypt.h>
 #include <srecord/record.h>
+#include <srecord/input/filter/message.h>
+
+#include <srecord/input.h>
+
+namespace srecord {
+class memory;
+}  // namespace srecord
 
 srecord::input_filter_message_gcrypt::input_filter_message_gcrypt(
     const input::pointer &a_deeper,

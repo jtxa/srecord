@@ -17,9 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input/generator/constant.h>
+#include <srecord/input/generator.h>
 #include <cstdio>
 
-#include <srecord/input/generator/constant.h>
+#include <srecord/input.h>
+#include <srecord/interval.h>
 
 srecord::input_generator_constant::input_generator_constant(
         const interval &a_range, uint8_t a_datum) :

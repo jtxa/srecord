@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_FILE_ASCII_HEX_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_ascii_hex class is used to represent the parse

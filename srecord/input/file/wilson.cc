@@ -19,6 +19,9 @@
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/wilson.h>
 #include <srecord/record.h>
+#include <cstdint>
+
+#include <srecord/input/file.h>
 
 
 srecord::input_file_wilson::input_file_wilson(const std::string &a_file_name) :

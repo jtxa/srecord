@@ -17,6 +17,7 @@
 //
 
 #include <srecord/endian.h>
+#include <cstdint>
 
 
 uint16_t

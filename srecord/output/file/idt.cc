@@ -18,6 +18,9 @@
 
 #include <srecord/output/file/idt.h>
 #include <srecord/record.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_idt::~output_file_idt()

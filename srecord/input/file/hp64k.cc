@@ -46,7 +46,10 @@
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/hp64k.h>
 #include <srecord/record.h>
+#include <stddef.h>
 #include <cstdint>
+
+#include <srecord/input/file.h>
 
 
 srecord::input_file_hp64k::input_file_hp64k(

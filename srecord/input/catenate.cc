@@ -16,10 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cassert>
-
 #include <srecord/input/catenate.h>
 #include <srecord/record.h>
+#include <cassert>
+#include <memory>
+
+#include <srecord/input.h>
 
 srecord::input_catenate::input_catenate(const pointer &a1, const pointer &a2) :
     in1(a1),

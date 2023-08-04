@@ -25,10 +25,19 @@
 //      Peter Miller.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/filter/message/stm32.h>
 #include <srecord/memory/walker/stm32.h>
 #include <srecord/record.h>
+#include <srecord/endian.h>
+#include <srecord/input/filter/message.h>
+#include <srecord/memory.h>
+#include <memory>
+
+#include <srecord/input.h>
+
+namespace srecord {
+class arglex_tool;
+}  // namespace srecord
 
 
 srecord::input_filter_message_stm32::input_filter_message_stm32(

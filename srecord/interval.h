@@ -22,7 +22,8 @@
 
 #include <cstddef>
 #include <cstdint>
-#include <iostream>
+#include <iosfwd>
+#include <string>
 
 namespace srecord
 {

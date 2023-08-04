@@ -20,8 +20,11 @@
 #define SRECORD_INPUT_EFINIX_BIT_H
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_efinix_bit class is used to represent the parse

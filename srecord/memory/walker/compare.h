@@ -22,6 +22,8 @@
 
 #include <srecord/interval.h>
 #include <srecord/memory/walker.h>
+#include <cstdint>
+#include <memory>
 
 namespace srecord
 {

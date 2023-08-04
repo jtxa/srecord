@@ -18,6 +18,10 @@
 
 #include <srecord/output/file/os65v.h>
 #include <srecord/record.h>
+#include <stddef.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_os65v::~output_file_os65v()

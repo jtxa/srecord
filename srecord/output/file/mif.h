@@ -20,9 +20,15 @@
 #define SRECORD_OUTPUT_FILE_MIF_H
 
 #include <srecord/output/file.h>
+#include <cstdint>
+#include <string>
+
+#include <srecord/output.h>
+#include <srecord/record.h>
 
 namespace srecord
 {
+class arglex_tool;
 
 /**
   * The srecord::output_file_mif class is used to represent the output state

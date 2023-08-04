@@ -21,8 +21,12 @@
 #define LIB_INPUT_FILE_HP64K
 
 #include <srecord/input/file.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class arglex_tool;
+class record;
 
 /**
  * The srecord::input_file_hp64k class is used to represent the parse

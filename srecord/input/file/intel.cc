@@ -20,6 +20,8 @@
 #include <srecord/input/file/intel.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 srecord::input_file_intel::~input_file_intel()
 {

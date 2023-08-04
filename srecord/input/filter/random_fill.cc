@@ -21,6 +21,10 @@
 #include <srecord/r250.h>
 #include <srecord/input/filter/random_fill.h>
 #include <srecord/record.h>
+#include <srecord/input/filter.h>
+#include <cstdint>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_random_fill::input_filter_random_fill(

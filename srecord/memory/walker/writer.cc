@@ -19,7 +19,14 @@
 
 
 #include <srecord/memory/walker/writer.h>
+#include <srecord/memory/walker.h>
 #include <srecord/output.h>
+#include <memory>
+
+namespace srecord
+{
+class record; // forward
+}
 
 
 srecord::memory_walker_writer::memory_walker_writer(

@@ -20,17 +20,18 @@
 #ifndef SRECORD_MEMORY_H
 #define SRECORD_MEMORY_H
 
-#include <string>
-
 #include <srecord/defcon.h>
 #include <srecord/input.h>
-#include <srecord/memory/chunk.h>
 #include <srecord/memory/walker.h>
-#include <srecord/string.h>
+
+#include <cstddef>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
 
 class record; // forward
+class memory_chunk; // forward
 
 /**
   * The srecord::memory class is used to simulate memory contents.

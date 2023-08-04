@@ -18,6 +18,10 @@
 
 #include <srecord/string.h>
 
+#include <cctype>
+#include <cstdint>
+#include <string>
+
 
 std::string
 srecord::string_quote_c(const std::string &arg)

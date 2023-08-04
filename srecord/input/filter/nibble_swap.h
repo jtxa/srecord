@@ -23,7 +23,10 @@
 
 #include <srecord/input/filter.h>
 
+#include <srecord/input.h>
+
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_filter_nibble_swap class is used to represent the

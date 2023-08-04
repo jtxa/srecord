@@ -19,6 +19,10 @@
 
 
 #include <srecord/input/filter/checksum/bitnot.h>
+#include <srecord/input/filter/checksum.h>
+
+#include <srecord/endian.h>
+#include <srecord/input.h>
 
 srecord::input_filter_checksum_bitnot::input_filter_checksum_bitnot(
         input::pointer a1, int a2, int a3, endian_t a_end, int a5) :

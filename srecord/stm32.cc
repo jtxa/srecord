@@ -25,7 +25,6 @@
 //      Peter Miller.
 //
 
-#include <iostream>
 #include <srecord/stm32.h>
 
 //

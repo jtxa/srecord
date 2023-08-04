@@ -20,6 +20,8 @@
 #include <srecord/input/file/signetics.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 srecord::input_file_signetics::input_file_signetics(
     const std::string &a_filename
 ) :

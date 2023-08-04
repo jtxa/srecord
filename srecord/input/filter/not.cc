@@ -20,6 +20,10 @@
 
 #include <srecord/input/filter/not.h>
 #include <srecord/record.h>
+#include <stddef.h>
+#include <srecord/input/filter.h>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_not::input_filter_not(const input::pointer &arg) :

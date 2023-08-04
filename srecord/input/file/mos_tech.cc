@@ -19,6 +19,9 @@
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/mos_tech.h>
 #include <srecord/record.h>
+#include <cstdint>
+
+#include <srecord/input/file.h>
 
 srecord::input_file_mos_tech::input_file_mos_tech(
     const std::string &a_file_name

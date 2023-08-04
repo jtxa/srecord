@@ -18,6 +18,7 @@
 
 #include <srecord/arglex/tool.h>
 
+#include <srecord/arglex.h>
 
 int
 main(int argc, char **argv)

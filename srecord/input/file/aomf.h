@@ -20,8 +20,12 @@
 #define SRECORD_INPUT_FILE_AOMF_H
 
 #include <srecord/input/file.h>
+#include <stddef.h>
+#include <cstdint>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_aomf class is used to parse Intel Absolute Object

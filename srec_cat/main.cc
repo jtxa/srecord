@@ -16,12 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <iostream>
-#include <cstdlib>
-
+#include <srec_cat/arglex3.h>
+#include <srecord/arglex.h>
+#include <srecord/arglex/tool.h>
+#include <srecord/input.h>
 #include <srecord/input/catenate.h>
-#include <srecord/input/file.h>
 #include <srecord/memory.h>
+#include <srecord/memory/walker.h>
 #include <srecord/memory/walker/writer.h>
 #include <srecord/output.h>
 #include <srecord/output/file.h>
@@ -29,7 +30,11 @@
 #include <srecord/record.h>
 #include <srecord/string.h>
 
-#include <srec_cat/arglex3.h>
+#include <cstdint>
+#include <cstdlib>
+#include <iostream>
+#include <memory>
+#include <string>
 
 
 int

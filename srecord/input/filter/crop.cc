@@ -20,6 +20,9 @@
 #include <srecord/interval.h>
 #include <srecord/input/filter/crop.h>
 #include <srecord/record.h>
+#include <srecord/input/filter.h>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_crop::input_filter_crop(

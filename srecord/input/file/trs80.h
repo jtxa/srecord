@@ -24,8 +24,10 @@
 
 
 #include <srecord/input/file.h>
+#include <string>
 
 namespace srecord {
+class record;
 
 /**
   * The srecord::input_file_trs80 class is used to parse a Radio Shack

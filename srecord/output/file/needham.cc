@@ -19,6 +19,10 @@
 
 #include <srecord/output/file/needham.h>
 #include <srecord/record.h>
+#include <stddef.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_needham::~output_file_needham()

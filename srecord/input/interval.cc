@@ -21,6 +21,7 @@
 #include <srecord/input.h>
 #include <srecord/input/interval.h>
 #include <srecord/record.h>
+#include <memory>
 
 
 srecord::interval

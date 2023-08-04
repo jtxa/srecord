@@ -17,11 +17,13 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/memory/walker/compare.h>
+
+#include <srecord/interval.h>
+#include <srecord/memory.h>
 
 #include <iostream>
-
-#include <srecord/memory.h>
-#include <srecord/memory/walker/compare.h>
+#include <string>
 
 
 srecord::memory_walker_compare::memory_walker_compare(const srecord::memory &a1,

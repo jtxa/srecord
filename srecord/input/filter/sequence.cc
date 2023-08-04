@@ -19,6 +19,9 @@
 
 #include <srecord/input/filter/sequence.h>
 #include <srecord/record.h>
+#include <srecord/input/filter.h>
+
+#include <srecord/input.h>
 
 
 srecord::input_filter_sequence::input_filter_sequence(

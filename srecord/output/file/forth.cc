@@ -20,6 +20,10 @@
 #include <srecord/output/file/forth.h>
 #include <srecord/record.h>
 #include <srecord/arglex/tool.h>
+#include <stddef.h>
+#include <srecord/output/file.h>
+
+#include <srecord/output.h>
 
 
 srecord::output_file_forth::~output_file_forth()

@@ -20,6 +20,8 @@
 #include <srecord/input/file/idt.h>
 #include <srecord/record.h>
 
+#include <srecord/input/file.h>
+
 
 srecord::input_file_idt::input_file_idt(
     const std::string &a_file_name
