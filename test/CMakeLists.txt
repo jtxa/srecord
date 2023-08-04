@@ -67,3 +67,13 @@ foreach(t ${SRECORD_TESTS})
         PATH=path_list_prepend:${CMAKE_BINARY_DIR}/test
         PATH=path_list_prepend:${CMAKE_SOURCE_DIR}/test)
 endforeach()
+
+if(CXX_INCLUDE_WHAT_YOU_USE)
+    add_custom_target(iwyu_check
+        COMMAND
+            ${CXX_INCLUDE_WHAT_YOU_USE}
+            -p ${PROJECT_BINARY_DIR}
+            --
+            -Xiwyu --mapping_file=${PROJECT_SOURCE_DIR}/test/iwyu_srecord.imp
+    )
+endif()

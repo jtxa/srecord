@@ -64,6 +64,7 @@ hexdump
 INHX
 inout
 Interix
+iwyu
 Izzet
 Jens
 joegeluso

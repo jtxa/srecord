@@ -1,0 +1,5 @@
+# IWYU mapping file
+[
+    # GNU extension of C library
+    { include: ["<bits/getopt_core.h>", "private", "<getopt.h>", "public"] }
+]

@@ -59,6 +59,37 @@ jobs:
         if: always()
         run: run-clang-tidy-14 -p build -header-filter=.*
 
+  check-iwyu:
+    name: Include-What-You-Use
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Update system
+        run: sudo apt-get update
+
+      - name: Install prerequisites
+        run: >-
+          sudo apt-get install -y
+          libgcrypt20-dev
+          iwyu
+          cmake
+          ninja-build
+          doxygen
+          graphviz
+
+      - uses: actions/checkout@v3
+
+      - name: Configure
+        env:
+          CXX: clang++
+          SRecord_CMake_Flags: >-
+            -D CMAKE_EXPORT_COMPILE_COMMANDS=ON
+        run: cmake -G Ninja -S . -B build ${SRecord_CMake_Flags}
+
+      - name: IWYU
+        working-directory: build
+        run: ninja iwyu_check
+
   build-gcc:
     name: Check source with gcc
     runs-on: ubuntu-22.04
