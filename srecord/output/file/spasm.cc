@@ -17,11 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/endian.h>
+#include <srecord/output/file.h>
 #include <srecord/output/file/spasm.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/endian.h>
-#include <srecord/output/file.h>
 
 #include <srecord/output.h>
 

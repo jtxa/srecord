@@ -17,10 +17,10 @@
 //
 
 
+#include <cstdint>
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/emon52.h>
 #include <srecord/record.h>
-#include <cstdint>
 
 #include <srecord/input/file.h>
 

@@ -18,15 +18,15 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/output/file/c.h>
+#include <cctype>
+#include <cstdio>
+#include <cstring>
 #include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
 #include <srecord/interval.h>
 #include <srecord/output/file.h>
+#include <srecord/output/file/c.h>
 #include <srecord/record.h>
-#include <cctype>
-#include <cstdio>
-#include <cstring>
 
 #include <srecord/output.h>
 

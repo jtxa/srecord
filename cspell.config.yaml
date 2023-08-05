@@ -179,6 +179,7 @@ words:
   - flavor
   - gcry
   - getc
+  - getopt
   - GFWY
   - GGPC
   - globbing
@@ -263,5 +264,6 @@ words:
   - VSNPRINTF
   - wlhs
   - wrhs
+  - Xiwyu
   - yesno
   - Zabcdefghijklmnopqr

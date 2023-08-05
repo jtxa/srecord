@@ -20,9 +20,9 @@
 #ifndef SRECORD_OUTPUT_FILE_DEC_BINARY_H
 #define SRECORD_OUTPUT_FILE_DEC_BINARY_H
 
+#include <cstdint>
 #include <srecord/output/file.h>
 #include <srecord/record.h>
-#include <cstdint>
 #include <string>
 
 #include <srecord/output.h>

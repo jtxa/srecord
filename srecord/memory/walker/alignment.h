@@ -19,9 +19,9 @@
 #ifndef SRECORD_MEMORY_WALKER_ALIGNMENT_H
 #define SRECORD_MEMORY_WALKER_ALIGNMENT_H
 
-#include <srecord/memory/walker.h>
 #include <cstdint>
 #include <memory>
+#include <srecord/memory/walker.h>
 
 namespace srecord
 {

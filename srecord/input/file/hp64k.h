@@ -20,8 +20,8 @@
 #ifndef LIB_INPUT_FILE_HP64K
 #define LIB_INPUT_FILE_HP64K
 
-#include <srecord/input/file.h>
 #include <cstdint>
+#include <srecord/input/file.h>
 #include <string>
 
 namespace srecord {

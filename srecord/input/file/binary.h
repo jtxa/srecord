@@ -19,8 +19,8 @@
 #ifndef SRECORD_INPUT_FILE_BINARY_H
 #define SRECORD_INPUT_FILE_BINARY_H
 
-#include <srecord/input/file.h>
 #include <cstdint>
+#include <srecord/input/file.h>
 #include <string>
 
 namespace srecord {

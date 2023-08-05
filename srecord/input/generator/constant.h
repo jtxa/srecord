@@ -20,8 +20,8 @@
 #ifndef SRECORD_INPUT_GENERATOR_CONSTANT_H
 #define SRECORD_INPUT_GENERATOR_CONSTANT_H
 
-#include <srecord/input/generator.h>
 #include <cstdint>
+#include <srecord/input/generator.h>
 #include <string>
 
 #include <srecord/input.h>

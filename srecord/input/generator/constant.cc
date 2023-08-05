@@ -17,9 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/generator/constant.h>
-#include <srecord/input/generator.h>
 #include <cstdio>
+#include <srecord/input/generator.h>
+#include <srecord/input/generator/constant.h>
 
 #include <srecord/input.h>
 #include <srecord/interval.h>

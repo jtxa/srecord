@@ -20,10 +20,10 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_CRC32_H
 #define SRECORD_INPUT_FILTER_MESSAGE_CRC32_H
 
+#include <cstdint>
 #include <srecord/crc32.h>
 #include <srecord/endian.h>
 #include <srecord/input/filter/message.h>
-#include <cstdint>
 
 #include <srecord/input.h>
 

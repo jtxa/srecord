@@ -17,10 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/xor.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/input/filter.h>
 
 #include <srecord/input.h>
 

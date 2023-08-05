@@ -16,13 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
-#include <srecord/input/file/logisim.h>
-#include <srecord/string.h>
 #include <cassert>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <srecord/arglex/tool.h>
+#include <srecord/input/file/logisim.h>
+#include <srecord/string.h>
 
 #include <srecord/input/file.h>
 #include <srecord/record.h>

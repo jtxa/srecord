@@ -16,13 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <cctype>
 #include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
 #include <srecord/output/file.h>
 #include <srecord/output/file/mem.h>
 #include <srecord/progname.h>
 #include <srecord/record.h>
-#include <cctype>
 
 #include <srecord/output.h>
 

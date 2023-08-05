@@ -16,9 +16,9 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file.h>
 #include <srecord/output/file/idt.h>
 #include <srecord/record.h>
-#include <srecord/output/file.h>
 
 #include <srecord/output.h>
 

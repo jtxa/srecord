@@ -18,10 +18,10 @@
 //
 
 
-#include <srecord/memory/chunk.h>
-#include <srecord/memory/walker.h>
 #include <cstring>
 #include <memory>
+#include <srecord/memory/chunk.h>
+#include <srecord/memory/walker.h>
 
 
 srecord::memory_chunk::memory_chunk(uint32_t arg) :

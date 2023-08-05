@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/output/file/mips_flash.h>
-#include <srecord/record.h>
 #include <srecord/endian.h>
 #include <srecord/output/file.h>
+#include <srecord/output/file/mips_flash.h>
+#include <srecord/record.h>
 
 #include <srecord/output.h>
 

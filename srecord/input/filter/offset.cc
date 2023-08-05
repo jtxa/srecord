@@ -17,9 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/offset.h>
 #include <srecord/record.h>
-#include <srecord/input/filter.h>
 
 #include <srecord/input.h>
 

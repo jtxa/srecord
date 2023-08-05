@@ -20,10 +20,10 @@
 #ifndef SRECORD_OUTPUT_FILE_H
 #define SRECORD_OUTPUT_FILE_H
 
-#include <srecord/output.h>
-#include <srecord/format_printf.h>
-#include <string>
 #include <cstdint>
+#include <srecord/format_printf.h>
+#include <srecord/output.h>
+#include <string>
 
 #include <srecord/record.h>
 

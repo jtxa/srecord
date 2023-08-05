@@ -19,8 +19,8 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_GCRYPT_H
 #define SRECORD_INPUT_FILTER_MESSAGE_GCRYPT_H
 
-#include <srecord/input/filter/message.h>
 #include <cstdint>
+#include <srecord/input/filter/message.h>
 
 #include <srecord/input.h>
 

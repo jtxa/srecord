@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/generator/repeat.h>
 #include <srecord/input/generator.h>
+#include <srecord/input/generator/repeat.h>
 
 #include <srecord/input.h>
 #include <srecord/interval.h>

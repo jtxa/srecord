@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/filter/checksum/negative.h>
 #include <srecord/input/filter/checksum.h>
+#include <srecord/input/filter/checksum/negative.h>
 
 #include <srecord/endian.h>
 #include <srecord/input.h>

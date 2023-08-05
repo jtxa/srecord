@@ -16,11 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <cctype>
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/vmem.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <cctype>
 
 #include <srecord/input/file.h>
 

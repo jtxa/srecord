@@ -25,13 +25,13 @@
 //      Peter Miller.
 //
 
-#include <srecord/input/filter/message/stm32.h>
-#include <srecord/memory/walker/stm32.h>
-#include <srecord/record.h>
+#include <memory>
 #include <srecord/endian.h>
 #include <srecord/input/filter/message.h>
+#include <srecord/input/filter/message/stm32.h>
 #include <srecord/memory.h>
-#include <memory>
+#include <srecord/memory/walker/stm32.h>
+#include <srecord/record.h>
 
 #include <srecord/input.h>
 

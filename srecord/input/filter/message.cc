@@ -16,12 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/filter/message.h>
-#include <srecord/record.h>
-#include <stddef.h>
 #include <srecord/defcon.h>
 #include <srecord/input/filter.h>
+#include <srecord/input/filter/message.h>
 #include <srecord/memory.h>
+#include <srecord/record.h>
+#include <stddef.h>
 
 #include <srecord/input.h>
 

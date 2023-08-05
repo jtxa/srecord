@@ -19,10 +19,10 @@
 #ifndef SRECORD_INPUT_FILE_LOGISIM_H
 #define SRECORD_INPUT_FILE_LOGISIM_H
 
-#include <srecord/record.h>
-#include <srecord/input/file.h>
 #include <cinttypes>
 #include <list>
+#include <srecord/input/file.h>
+#include <srecord/record.h>
 #include <string>
 
 namespace srecord {

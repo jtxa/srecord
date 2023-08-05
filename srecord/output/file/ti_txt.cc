@@ -17,10 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file.h>
 #include <srecord/output/file/ti_txt.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/output/file.h>
 
 #include <srecord/output.h>
 

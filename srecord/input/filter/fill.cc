@@ -17,12 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/interval.h>
-#include <srecord/input/filter/fill.h>
-#include <srecord/record.h>
-#include <srecord/input/filter.h>
 #include <cassert>
 #include <cstring>
+#include <srecord/input/filter.h>
+#include <srecord/input/filter/fill.h>
+#include <srecord/interval.h>
+#include <srecord/record.h>
 
 #include <srecord/input.h>
 

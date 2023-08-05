@@ -20,12 +20,12 @@
 #ifndef SRECORD_ARGLEX_TOOL_H
 #define SRECORD_ARGLEX_TOOL_H
 
+#include <cstdint>
 #include <srecord/arglex.h>
 #include <srecord/defcon.h>
 #include <srecord/endian.h>
 #include <srecord/input.h>
 #include <srecord/output.h>
-#include <cstdint>
 #include <string>
 
 

@@ -17,10 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <cstdint>
+#include <srecord/output/file.h>
 #include <srecord/output/file/binary.h>
 #include <srecord/record.h>
-#include <srecord/output/file.h>
-#include <cstdint>
 
 #include <srecord/output.h>
 

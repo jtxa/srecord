@@ -17,17 +17,17 @@
 //      <http://www.gnu.org/licenses/>.
 //
 
+#include <cstdint>
+#include <cstdlib>
+#include <iomanip>
+#include <iostream>
+#include <memory>
 #include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
 #include <srecord/input.h>
 #include <srecord/interval.h>
 #include <srecord/record.h>
 #include <srecord/string.h>
-#include <cstdint>
-#include <cstdlib>
-#include <iomanip>
-#include <iostream>
-#include <memory>
 #include <string>
 #include <vector>
 

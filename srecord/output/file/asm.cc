@@ -17,15 +17,15 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/output/file/asm.h>
-#include <srecord/arglex.h>
-#include <srecord/interval.h>
-#include <srecord/arglex/tool.h>
-#include <srecord/output/file.h>
-#include <srecord/record.h>
 #include <cctype>
 #include <cstdio>
 #include <cstring>
+#include <srecord/arglex.h>
+#include <srecord/arglex/tool.h>
+#include <srecord/interval.h>
+#include <srecord/output/file.h>
+#include <srecord/output/file/asm.h>
+#include <srecord/record.h>
 
 #include <srecord/output.h>
 

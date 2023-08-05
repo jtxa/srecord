@@ -17,10 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <cstdint>
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/split.h>
 #include <srecord/record.h>
-#include <srecord/input/filter.h>
-#include <cstdint>
 
 #include <srecord/input.h>
 

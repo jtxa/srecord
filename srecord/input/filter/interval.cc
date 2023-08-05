@@ -17,12 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/filter/interval.h>
-#include <srecord/record.h>
+#include <cstdint>
 #include <srecord/endian.h>
 #include <srecord/input/filter.h>
+#include <srecord/input/filter/interval.h>
 #include <srecord/interval.h>
-#include <cstdint>
+#include <srecord/record.h>
 
 #include <srecord/input.h>
 

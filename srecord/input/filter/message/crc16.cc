@@ -17,16 +17,16 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <memory>
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/crc16.h>
+#include <srecord/endian.h>
+#include <srecord/input/filter/message.h>
 #include <srecord/input/filter/message/crc16.h>
 #include <srecord/memory.h>
 #include <srecord/memory/walker/crc16.h>
 #include <srecord/record.h>
-#include <srecord/arglex.h>
-#include <srecord/crc16.h>
-#include <srecord/endian.h>
-#include <srecord/input/filter/message.h>
-#include <memory>
 #include <string>
 
 #include <srecord/input.h>

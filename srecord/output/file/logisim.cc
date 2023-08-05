@@ -16,12 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/output/file/logisim.h>
-#include <srecord/record.h>
-#include <srecord/output/file.h>
+#include <cassert>
 #include <cstdio> // for snprintf
 #include <cstring>
-#include <cassert>
+#include <srecord/output/file.h>
+#include <srecord/output/file/logisim.h>
+#include <srecord/record.h>
 
 #include <srecord/output.h>
 

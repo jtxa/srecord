@@ -19,9 +19,9 @@
 #ifndef SRECORD_INPUT_FILE_MIPS_FLASH_H
 #define SRECORD_INPUT_FILE_MIPS_FLASH_H
 
+#include <cstdint>
 #include <srecord/endian.h>
 #include <srecord/input/file.h>
-#include <cstdint>
 #include <string>
 
 namespace srecord {

@@ -19,8 +19,8 @@
 #ifndef LIB_INPUT_FILE_STEWIE_H
 #define LIB_INPUT_FILE_STEWIE_H
 
-#include <srecord/input/file.h>
 #include <cstdint>
+#include <srecord/input/file.h>
 #include <string>
 
 namespace srecord {

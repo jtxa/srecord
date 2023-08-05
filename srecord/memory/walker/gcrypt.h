@@ -26,8 +26,8 @@
 typedef void *gcry_md_hd_t;
 #endif
 
-#include <srecord/memory/walker.h>
 #include <cstdint>
+#include <srecord/memory/walker.h>
 
 namespace srecord
 {

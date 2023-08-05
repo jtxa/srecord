@@ -22,8 +22,8 @@
 
 
 #include <srecord/endian.h>
-#include <srecord/input/filter.h>
 #include <srecord/input.h>
+#include <srecord/input/filter.h>
 
 #include <cstdint>
 

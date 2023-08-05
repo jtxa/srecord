@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/quit.h>
-#include <srecord/input/filter/message/gcrypt.h>
-#include <srecord/record.h>
 #include <srecord/input/filter/message.h>
+#include <srecord/input/filter/message/gcrypt.h>
+#include <srecord/quit.h>
+#include <srecord/record.h>
 
 #include <srecord/input.h>
 

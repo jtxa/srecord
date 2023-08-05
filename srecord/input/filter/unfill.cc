@@ -18,10 +18,10 @@
 //
 
 
-#include <srecord/input/filter/unfill.h>
-#include <srecord/input/filter.h>
-#include <srecord/record.h>
 #include <cstdint>
+#include <srecord/input/filter.h>
+#include <srecord/input/filter/unfill.h>
+#include <srecord/record.h>
 
 #include <srecord/input.h>
 

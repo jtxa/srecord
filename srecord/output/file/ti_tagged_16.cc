@@ -17,11 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <cctype>
+#include <srecord/output/file.h>
 #include <srecord/output/file/ti_tagged_16.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/output/file.h>
-#include <cctype>
 
 #include <srecord/output.h>
 

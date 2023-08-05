@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/file.h>
 #include <cstdio>
+#include <srecord/input/file.h>
 
 bool srecord::input_file::ignore_checksums_default = false;
 

@@ -17,10 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <cstring>
+#include <srecord/output/file.h>
 #include <srecord/output/file/wilson.h>
 #include <srecord/record.h>
-#include <srecord/output/file.h>
-#include <cstring>
 
 #include <srecord/output.h>
 

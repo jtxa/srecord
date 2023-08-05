@@ -20,9 +20,9 @@
 #ifndef SRECORD_INPUT_GENERATOR_REPEAT_H
 #define SRECORD_INPUT_GENERATOR_REPEAT_H
 
+#include <cstdint>
 #include <srecord/input/generator.h>
 #include <stddef.h>
-#include <cstdint>
 #include <string>
 
 #include <srecord/input.h>

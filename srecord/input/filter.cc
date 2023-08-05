@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/filter.h>
 #include <memory>
+#include <srecord/input/filter.h>
 
 #include <srecord/input.h>
 

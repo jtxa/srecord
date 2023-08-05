@@ -19,8 +19,8 @@
 #ifndef LIB_INPUT_FILE_MOTOROLA_H
 #define LIB_INPUT_FILE_MOTOROLA_H
 
-#include <srecord/input/file.h>
 #include <cstdint>
+#include <srecord/input/file.h>
 #include <string>
 
 namespace srecord {

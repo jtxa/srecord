@@ -17,11 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <cstdint>
 #include <srecord/arglex/tool.h>
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/byte_swap.h>
 #include <srecord/record.h>
-#include <srecord/input/filter.h>
-#include <cstdint>
 
 #include <srecord/input.h>
 

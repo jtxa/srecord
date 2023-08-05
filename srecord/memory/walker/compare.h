@@ -20,10 +20,10 @@
 #ifndef SRECORD_MEMORY_WALKER_COMPARE_H
 #define SRECORD_MEMORY_WALKER_COMPARE_H
 
-#include <srecord/interval.h>
-#include <srecord/memory/walker.h>
 #include <cstdint>
 #include <memory>
+#include <srecord/interval.h>
+#include <srecord/memory/walker.h>
 
 namespace srecord
 {

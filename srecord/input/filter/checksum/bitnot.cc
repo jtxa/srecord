@@ -18,8 +18,8 @@
 //
 
 
-#include <srecord/input/filter/checksum/bitnot.h>
 #include <srecord/input/filter/checksum.h>
+#include <srecord/input/filter/checksum/bitnot.h>
 
 #include <srecord/endian.h>
 #include <srecord/input.h>

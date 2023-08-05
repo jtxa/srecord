@@ -19,9 +19,9 @@
 #ifndef SRECORD_INPUT_FILE_AOMF_H
 #define SRECORD_INPUT_FILE_AOMF_H
 
+#include <cstdint>
 #include <srecord/input/file.h>
 #include <stddef.h>
-#include <cstdint>
 #include <string>
 
 namespace srecord {

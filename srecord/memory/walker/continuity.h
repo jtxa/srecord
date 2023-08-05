@@ -20,9 +20,9 @@
 #ifndef SRECORD_MEMORY_WALKER_CONTINUITY_H
 #define SRECORD_MEMORY_WALKER_CONTINUITY_H
 
-#include <srecord/memory/walker.h>
 #include <cstdint>
 #include <memory>
+#include <srecord/memory/walker.h>
 
 namespace srecord
 {

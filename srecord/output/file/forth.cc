@@ -17,11 +17,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex/tool.h>
+#include <srecord/output/file.h>
 #include <srecord/output/file/forth.h>
 #include <srecord/record.h>
-#include <srecord/arglex/tool.h>
 #include <stddef.h>
-#include <srecord/output/file.h>
 
 #include <srecord/output.h>
 

@@ -18,11 +18,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <cstdint>
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/nibble_swap.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/input/filter.h>
-#include <cstdint>
 
 #include <srecord/input.h>
 

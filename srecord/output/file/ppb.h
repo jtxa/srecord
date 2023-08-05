@@ -19,9 +19,9 @@
 #ifndef SRECORD_OUTPUT_FILE_PPB_H
 #define SRECORD_OUTPUT_FILE_PPB_H
 
+#include <cstdint>
 #include <srecord/output/file.h>
 #include <stddef.h>
-#include <cstdint>
 #include <string>
 
 #include <srecord/output.h>

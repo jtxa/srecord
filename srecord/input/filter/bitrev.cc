@@ -17,10 +17,10 @@
 //
 
 #include <srecord/bitrev.h>
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/bitrev.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/input/filter.h>
 
 #include <srecord/input.h>
 

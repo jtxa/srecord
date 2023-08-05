@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <cstring>
+#include <srecord/output/file.h>
 #include <srecord/output/file/ppx.h>
 #include <srecord/record.h>
-#include <srecord/output/file.h>
-#include <cstring>
 
 #include <srecord/output.h>
 

@@ -22,13 +22,13 @@
 #ifndef SRECORD_OUTPUT_FILE_MSBIN_H
 #define SRECORD_OUTPUT_FILE_MSBIN_H
 
+#include <cstdint>
+#include <memory>
 #include <srecord/output/file.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <cstdint>
-#include <vector>
-#include <memory>
 #include <string>
+#include <vector>
 
 #include <srecord/output.h>
 

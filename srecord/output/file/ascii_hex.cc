@@ -17,10 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file.h>
 #include <srecord/output/file/ascii_hex.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/output/file.h>
 
 #include <srecord/output.h>
 

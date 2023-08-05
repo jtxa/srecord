@@ -20,9 +20,9 @@
 #ifndef SRECORD_INPUT_GENERATOR_H
 #define SRECORD_INPUT_GENERATOR_H
 
+#include <cstdint>
 #include <srecord/input.h>
 #include <srecord/interval.h>
-#include <cstdint>
 
 namespace srecord
 {

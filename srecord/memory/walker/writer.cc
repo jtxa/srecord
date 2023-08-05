@@ -18,10 +18,10 @@
 //
 
 
-#include <srecord/memory/walker/writer.h>
-#include <srecord/memory/walker.h>
-#include <srecord/output.h>
 #include <memory>
+#include <srecord/memory/walker.h>
+#include <srecord/memory/walker/writer.h>
+#include <srecord/output.h>
 
 namespace srecord
 {

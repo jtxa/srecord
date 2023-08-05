@@ -19,8 +19,8 @@
 #ifndef SRECORD_OUTPUT_FILE_MEM_H
 #define SRECORD_OUTPUT_FILE_MEM_H
 
-#include <srecord/output/file.h>
 #include <cstdint>
+#include <srecord/output/file.h>
 #include <string>
 
 #include <srecord/output.h>

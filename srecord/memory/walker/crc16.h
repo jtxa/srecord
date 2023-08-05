@@ -20,10 +20,10 @@
 #ifndef SRECORD_MEMORY_WALKER_CRC16_H
 #define SRECORD_MEMORY_WALKER_CRC16_H
 
-#include <srecord/crc16.h>
-#include <srecord/memory/walker.h>
 #include <cstdint>
 #include <memory>
+#include <srecord/crc16.h>
+#include <srecord/memory/walker.h>
 
 namespace srecord
 {

@@ -19,10 +19,10 @@
 #ifndef SRECORD_INPUT_FILE_PPB_H
 #define SRECORD_INPUT_FILE_PPB_H
 
+#include <cstdint>
 #include <srecord/input/file.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <cstdint>
 #include <string>
 
 namespace srecord {

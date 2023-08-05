@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/catenate.h>
-#include <srecord/record.h>
 #include <cassert>
 #include <memory>
+#include <srecord/input/catenate.h>
+#include <srecord/record.h>
 
 #include <srecord/input.h>
 

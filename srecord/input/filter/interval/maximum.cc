@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/input/filter/interval/maximum.h>
 #include <srecord/input/filter/interval.h>
+#include <srecord/input/filter/interval/maximum.h>
 #include <srecord/interval.h>
 
 #include <srecord/endian.h>

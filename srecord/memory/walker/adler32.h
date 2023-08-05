@@ -20,10 +20,10 @@
 #ifndef SRECORD_MEMORY_WALKER_ADLER32_H
 #define SRECORD_MEMORY_WALKER_ADLER32_H
 
-#include <srecord/adler32.h>
-#include <srecord/memory/walker.h>
 #include <cstdint>
 #include <memory>
+#include <srecord/adler32.h>
+#include <srecord/memory/walker.h>
 
 namespace srecord
 {

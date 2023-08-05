@@ -17,16 +17,16 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/memory.h>
+#include <memory>
 #include <srecord/defcon.h>
 #include <srecord/input.h>
+#include <srecord/memory.h>
 #include <srecord/memory/chunk.h>
 #include <srecord/memory/walker.h>
 #include <srecord/memory/walker/alignment.h>
 #include <srecord/memory/walker/compare.h>
 #include <srecord/memory/walker/continuity.h>
 #include <srecord/record.h>
-#include <memory>
 
 srecord::memory::memory(const srecord::memory &rhs)
 

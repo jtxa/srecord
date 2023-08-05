@@ -17,12 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <cstring>
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/output/file.h>
 #include <srecord/output/file/motorola.h>
 #include <srecord/record.h>
-#include <srecord/arglex.h>
-#include <srecord/output/file.h>
-#include <cstring>
 
 #include <srecord/output.h>
 

@@ -19,13 +19,13 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <cassert>
+#include <cctype>
+#include <cstdint>
 #include <srecord/arglex/tool.h>
 #include <srecord/endian.h>
 #include <srecord/input/file/trs80.h>
 #include <srecord/record.h>
-#include <cctype>
-#include <cassert>
-#include <cstdint>
 
 #include <srecord/input/file.h>
 

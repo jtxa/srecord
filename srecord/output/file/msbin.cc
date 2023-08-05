@@ -19,12 +19,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/output/file/msbin.h>
-#include <ext/alloc_traits.h>
-#include <srecord/output/file.h>
-#include <srecord/record.h>
 #include <cassert>
+#include <ext/alloc_traits.h>
 #include <memory>
+#include <srecord/output/file.h>
+#include <srecord/output/file/msbin.h>
+#include <srecord/record.h>
 
 #include <srecord/output.h>
 

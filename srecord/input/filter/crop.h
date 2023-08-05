@@ -20,8 +20,8 @@
 #ifndef SRECORD_INPUT_FILTER_CROP_H
 #define SRECORD_INPUT_FILTER_CROP_H
 
-#include <srecord/interval.h>
 #include <srecord/input/filter.h>
+#include <srecord/interval.h>
 #include <srecord/record.h>
 
 #include <srecord/input.h>

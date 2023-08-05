@@ -17,9 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file.h>
 #include <srecord/output/file/tektronix_extended.h>
 #include <srecord/record.h>
-#include <srecord/output/file.h>
 
 #include <srecord/output.h>
 

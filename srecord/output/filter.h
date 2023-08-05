@@ -19,8 +19,8 @@
 #ifndef SRECORD_OUTPUT_FILTER_H
 #define SRECORD_OUTPUT_FILTER_H
 
-#include <srecord/output.h>
 #include <cstdint>
+#include <srecord/output.h>
 #include <string>
 
 namespace srecord {

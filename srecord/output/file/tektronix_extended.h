@@ -20,8 +20,8 @@
 #ifndef SRECORD_OUTPUT_FILE_TEKTRONIX_EXTENDED_H
 #define SRECORD_OUTPUT_FILE_TEKTRONIX_EXTENDED_H
 
-#include <srecord/output/file.h>
 #include <cstdint>
+#include <srecord/output/file.h>
 #include <string>
 
 #include <srecord/output.h>

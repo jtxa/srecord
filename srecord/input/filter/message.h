@@ -19,9 +19,9 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_H
 #define SRECORD_INPUT_FILTER_MESSAGE_H
 
+#include <cstdint>
 #include <srecord/input/filter.h>
 #include <srecord/memory.h>
-#include <cstdint>
 
 #include <srecord/input.h>
 

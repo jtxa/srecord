@@ -16,8 +16,8 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/memory/walker/fletcher16.h>
 #include <srecord/fletcher16.h>
+#include <srecord/memory/walker/fletcher16.h>
 
 #include <srecord/endian.h>
 

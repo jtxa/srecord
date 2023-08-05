@@ -17,11 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/endian.h>
+#include <srecord/input/filter.h>
 #include <srecord/input/filter/checksum.h>
 #include <srecord/record.h>
 #include <stddef.h>
-#include <srecord/endian.h>
-#include <srecord/input/filter.h>
 
 #include <srecord/input.h>
 

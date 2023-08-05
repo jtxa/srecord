@@ -20,8 +20,8 @@
 
 #include <srecord/quit.h>
 
-#include <cstdio>
 #include <cstdarg>
+#include <cstdio>
 
 srecord::quit_prefix::quit_prefix(quit &a1, const char *a2) :
     prefix(a2),

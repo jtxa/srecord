@@ -16,8 +16,8 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/output/filter.h>
 #include <memory>
+#include <srecord/output/filter.h>
 
 #include <srecord/output.h>
 

@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <cstdint>
 #include <srecord/arglex/tool.h>
 #include <srecord/input/file/tektronix.h>
 #include <srecord/record.h>
-#include <cstdint>
 
 #include <srecord/input/file.h>
 
