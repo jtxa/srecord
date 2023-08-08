@@ -19,7 +19,7 @@
 #include <iostream>
 
 #include <srecord/versn_stamp.h>
-#include <patchlevel.h>
+#include <srecord/patchlevel.h>
 #include <srecord/progname.h>
 
 
