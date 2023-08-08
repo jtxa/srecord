@@ -17,8 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/filter/byte_swap.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
 
 

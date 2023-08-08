@@ -20,8 +20,9 @@
 #define SRECORD_INPUT_FILTER_INTERVAL_H
 
 #include <srecord/endian.h>
-#include <srecord/interval.h>
 #include <srecord/input/filter.h>
+#include <srecord/interval.h>
+
 
 namespace srecord {
 

@@ -17,19 +17,19 @@
 //      <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
+#include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
+#include <srecord/interval.h>
+#include <srecord/memory.h>
+#include <srecord/record.h>
+#include <srecord/string.h>
+
 #include <cstdint>
+#include <cstdio>
 #include <cstdlib>
 #include <iomanip>
 #include <iostream>
 #include <vector>
-
-#include <srecord/interval.h>
-#include <srecord/arglex/tool.h>
-#include <srecord/input/file.h>
-#include <srecord/memory.h>
-#include <srecord/record.h>
-#include <srecord/string.h>
 
 
 int

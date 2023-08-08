@@ -17,7 +17,9 @@
 //
 
 #include <srecord/memory/walker/fletcher32.h>
+
 #include <srecord/output.h>
+
 
 srecord::memory_walker_fletcher32::pointer
 srecord::memory_walker_fletcher32::create()

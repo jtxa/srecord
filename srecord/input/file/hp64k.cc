@@ -43,9 +43,12 @@
  *   giving length of its record minus 1,
  *   i.e. recsize == (DataRecord.numbytes + 6) - 1
  */
-#include <srecord/arglex/tool.h>
+
 #include <srecord/input/file/hp64k.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
+
 #include <cstdint>
 
 

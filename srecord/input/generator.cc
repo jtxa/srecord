@@ -17,15 +17,17 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
+#include <srecord/input/generator.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/generator.h>
 #include <srecord/input/generator/constant.h>
 #include <srecord/input/generator/random.h>
 #include <srecord/input/generator/repeat.h>
 #include <srecord/record.h>
 #include <srecord/string.h>
+
+#include <cstring>
+
 
 srecord::input_generator::input_generator(const interval &a_range) :
     range(a_range)

@@ -22,6 +22,7 @@
 
 #include <memory>
 
+
 namespace srecord {
 
 class record; // forward

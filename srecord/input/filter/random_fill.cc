@@ -17,9 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input/filter/random_fill.h>
+
 #include <srecord/interval.h>
 #include <srecord/r250.h>
-#include <srecord/input/filter/random_fill.h>
 #include <srecord/record.h>
 
 

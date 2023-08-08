@@ -22,6 +22,7 @@
 #include <srecord/endian.h>
 #include <srecord/input/file.h>
 
+
 namespace srecord {
 
 /**

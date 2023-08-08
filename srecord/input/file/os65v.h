@@ -19,8 +19,8 @@
 #ifndef SRECORD_INPUT_FILE_OS65V_H
 #define SRECORD_INPUT_FILE_OS65V_H
 
-
 #include <srecord/input/file.h>
+
 
 namespace srecord {
 

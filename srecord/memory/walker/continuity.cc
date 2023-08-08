@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-
 #include <srecord/memory/walker/continuity.h>
+
 
 srecord::memory_walker_continuity::pointer
 srecord::memory_walker_continuity::create()

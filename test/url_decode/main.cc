@@ -16,16 +16,17 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/progname.h>
+#include <srecord/string.h>
+#include <srecord/versn_stamp.h>
+
+#include <getopt.h>
+
 #include <cctype>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
-#include <getopt.h>
 #include <string>
-
-#include <srecord/progname.h>
-#include <srecord/string.h>
-#include <srecord/versn_stamp.h>
 
 
 static void

@@ -22,8 +22,8 @@
 #include <srecord/memory.h>
 #include <srecord/record.h>
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 #include <vector>
 
 

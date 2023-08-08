@@ -18,6 +18,7 @@
 //
 
 #include <srecord/input/filter/or.h>
+
 #include <srecord/record.h>
 
 

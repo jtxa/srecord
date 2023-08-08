@@ -19,10 +19,11 @@
 #ifndef SRECORD_RECORD_H
 #define SRECORD_RECORD_H
 
+#include <srecord/endian.h>
+
 #include <cstddef>
 #include <cstdint>
 
-#include <srecord/endian.h>
 
 namespace srecord {
 

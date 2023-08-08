@@ -18,7 +18,9 @@
 //
 
 #include <srecord/input/filter/unsplit.h>
+
 #include <srecord/record.h>
+
 
 srecord::input_filter_unsplit::input_filter_unsplit(
         const srecord::input::pointer &a1, int a2, int a3, int a4) :

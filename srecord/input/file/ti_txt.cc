@@ -16,11 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
+#include <srecord/input/file/ti_txt.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file/ti_txt.h>
 #include <srecord/record.h>
+
+#include <cctype>
+
 
 srecord::input_file_ti_txt::input_file_ti_txt(const std::string &a_file_name) :
     input_file(a_file_name)

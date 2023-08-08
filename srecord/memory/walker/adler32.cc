@@ -18,6 +18,7 @@
 //
 
 #include <srecord/memory/walker/adler32.h>
+
 #include <srecord/output.h>
 
 

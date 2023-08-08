@@ -23,8 +23,9 @@
 #include <srecord/format_printf.h>
 
 #include <list>
-#include <vector>
 #include <string>
+#include <vector>
+
 
 #define SRECORD_ARGLEX_END_MARKER {0,0}
 

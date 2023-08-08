@@ -16,9 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/file/signetics.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
+
 
 srecord::input_file_signetics::input_file_signetics(
     const std::string &a_filename

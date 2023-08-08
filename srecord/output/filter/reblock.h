@@ -21,6 +21,7 @@
 
 #include <srecord/output/filter.h>
 
+
 namespace srecord {
 
 /**

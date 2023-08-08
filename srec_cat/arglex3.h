@@ -22,6 +22,7 @@
 
 #include <srecord/arglex/tool.h>
 
+
 class srec_cat_arglex3:
     public srecord::arglex_tool
 {

@@ -18,8 +18,9 @@
 //
 
 #include <srecord/output/file/forth.h>
-#include <srecord/record.h>
+
 #include <srecord/arglex/tool.h>
+#include <srecord/record.h>
 
 
 srecord::output_file_forth::~output_file_forth()

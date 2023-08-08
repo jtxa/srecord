@@ -19,10 +19,11 @@
 #ifndef SRECORD_FLETCHER16_H
 #define SRECORD_FLETCHER16_H
 
-#include <cstddef>
-
 #include <srecord/endian.h>
+
+#include <cstddef>
 #include <cstdint>
+
 
 namespace srecord
 {

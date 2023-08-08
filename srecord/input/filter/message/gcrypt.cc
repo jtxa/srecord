@@ -16,11 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/quit.h>
-#include <srecord/sizeof.h>
 #include <srecord/input/filter/message/gcrypt.h>
+
 #include <srecord/memory/walker/gcrypt.h>
+#include <srecord/quit.h>
 #include <srecord/record.h>
+#include <srecord/sizeof.h>
+
 
 srecord::input_filter_message_gcrypt::input_filter_message_gcrypt(
     const input::pointer &a_deeper,

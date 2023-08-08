@@ -16,10 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/filter/message/fletcher16.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/memory/walker/fletcher16.h>
 #include <srecord/record.h>
+
 
 srecord::input_filter_message_fletcher16::input_filter_message_fletcher16(
     const input::pointer &a_deeper,

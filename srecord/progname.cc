@@ -17,9 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/progname.h>
+
+#include <cstring>
 
 
 static char *progname;

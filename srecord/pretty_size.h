@@ -22,6 +22,7 @@
 
 #include <string>
 
+
 namespace srecord
 {
 

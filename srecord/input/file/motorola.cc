@@ -16,9 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/file/motorola.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
+
 
 srecord::input_file_motorola::input_file_motorola(
     const std::string &a_file_name

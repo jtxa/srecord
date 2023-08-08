@@ -19,8 +19,10 @@
 #ifndef SRECORD_QUIT_H
 #define SRECORD_QUIT_H
 
-#include <cstdarg>
 #include <srecord/format_printf.h>
+
+#include <cstdarg>
+
 
 namespace srecord
 {

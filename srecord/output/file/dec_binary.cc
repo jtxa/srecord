@@ -18,7 +18,9 @@
 //
 
 #include <srecord/output/file/dec_binary.h>
+
 #include <srecord/record.h>
+
 
 #define BLOCK_SIZE 512
 #define BLOCK_SIZE_MASK (BLOCK_SIZE - 1)

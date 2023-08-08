@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-
 #include <srecord/input/filter/unfill.h>
+
 
 srecord::input_filter_unfill::input_filter_unfill(
         const srecord::input::pointer &a1, int a2, int a3) :

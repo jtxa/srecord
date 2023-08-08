@@ -16,16 +16,8 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cassert>
-#include <cctype>
-#include <cerrno>
-#include <cstdio>
-#include <cstdlib>
-#include <cstring>
-#include <iostream>
-#include <unistd.h>
-
 #include <srecord/arglex.h>
+
 #include <srecord/progname.h>
 #include <srecord/quit.h>
 #include <srecord/versn_stamp.h>
@@ -34,6 +26,16 @@
 #ifdef __MSVCRT__
 #include <process.h>
 #endif
+#include <unistd.h>
+
+#include <cassert>
+#include <cctype>
+#include <cerrno>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <iostream>
+
 
 static const srecord::arglex::table_ty default_table[] =
 {

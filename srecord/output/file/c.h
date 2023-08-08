@@ -21,8 +21,9 @@
 #ifndef SRECORD_OUTPUT_FILE_C_H
 #define SRECORD_OUTPUT_FILE_C_H
 
-#include <srecord/output/file.h>
 #include <srecord/interval.h>
+#include <srecord/output/file.h>
+
 
 namespace srecord
 {

@@ -20,8 +20,9 @@
 #ifndef SRECORD_OUTPUT_FILE_BASIC_H
 #define SRECORD_OUTPUT_FILE_BASIC_H
 
-#include <srecord/output/file.h>
 #include <srecord/interval.h>
+#include <srecord/output/file.h>
+
 
 namespace srecord
 {

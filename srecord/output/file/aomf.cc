@@ -17,10 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/output/file/aomf.h>
+
 #include <srecord/record.h>
+
+#include <cstring>
 
 
 srecord::output_file_aomf::output_file_aomf(const std::string &a_file_name) :

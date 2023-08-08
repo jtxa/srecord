@@ -18,6 +18,7 @@
 //
 
 #include <srecord/input/filter/offset.h>
+
 #include <srecord/record.h>
 
 

@@ -16,12 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/quit.h>
+
 #include <cerrno>
 #include <cstdarg>
 #include <cstdio>
 #include <cstring>
 
-#include <srecord/quit.h>
 
 void
 srecord::quit::fatal_error(const char *fmt, ...)

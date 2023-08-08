@@ -16,11 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
+#include <srecord/input/file/ascii_hex.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file/ascii_hex.h>
 #include <srecord/record.h>
+
+#include <cctype>
+
 
 srecord::input_file_ascii_hex::input_file_ascii_hex(
     const std::string &a_filename

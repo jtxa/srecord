@@ -17,13 +17,14 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file/asm.h>
+
+#include <srecord/arglex/tool.h>
+#include <srecord/interval.h>
+#include <srecord/record.h>
+
 #include <cstdio>
 #include <cstring>
-
-#include <srecord/interval.h>
-#include <srecord/arglex/tool.h>
-#include <srecord/output/file/asm.h>
-#include <srecord/record.h>
 
 
 srecord::output_file_asm::~output_file_asm()

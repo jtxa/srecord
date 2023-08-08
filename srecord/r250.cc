@@ -16,12 +16,15 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdlib>
-#include <ctime>
+#include <srecord/r250.h>
+
+#include <srecord/sizeof.h>
+
 #include <unistd.h>
 
-#include <srecord/r250.h>
-#include <srecord/sizeof.h>
+#include <cstdlib>
+#include <ctime>
+
 
 static  uint32_t   buf[250];
 static  uint32_t   *pos;

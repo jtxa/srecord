@@ -28,13 +28,15 @@
 // See test/01/t0150a.sh for test vectors.
 //
 
-#include <cstring>
-#include <string>
+#include <srecord/crc16.h>
 
 #include <srecord/bitrev.h>
-#include <srecord/crc16.h>
 #include <srecord/quit.h>
 #include <srecord/sizeof.h>
+
+#include <cstdio>
+#include <cstring>
+#include <string>
 
 
 //
@@ -296,9 +298,6 @@ srecord::crc16::get()
 #endif
     return state;
 }
-
-
-#include <cstdio>
 
 
 void

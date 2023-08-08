@@ -16,9 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/file/mif.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
+
 
 srecord::input_file_mif::input_file_mif(const std::string &a_file_name) :
     srecord::input_file(a_file_name)

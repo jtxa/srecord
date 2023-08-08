@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/fastload.h>
+
 #include <srecord/record.h>
 
 

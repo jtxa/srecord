@@ -16,10 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/output/file/ppb.h>
+
 #include <srecord/record.h>
+
+#include <cstring>
 
 
 srecord::output_file_ppb::~output_file_ppb()

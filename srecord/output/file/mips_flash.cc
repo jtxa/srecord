@@ -17,6 +17,7 @@
 //
 
 #include <srecord/output/file/mips_flash.h>
+
 #include <srecord/record.h>
 #include <srecord/sizeof.h>
 

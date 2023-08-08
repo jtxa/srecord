@@ -16,12 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <iostream>
-#include <cctype>
+#include <srecord/input/file/efinix_bit.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file/efinix_bit.h>
 #include <srecord/record.h>
+
+#include <cctype>
+#include <iostream>
 
 
 srecord::input_file_efinix_bit::input_file_efinix_bit(

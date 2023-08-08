@@ -16,10 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input/file/emon52.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file/emon52.h>
 #include <srecord/record.h>
+
 
 srecord::input_file_emon52::input_file_emon52(const std::string &a_file_name) :
     srecord::input_file(a_file_name)

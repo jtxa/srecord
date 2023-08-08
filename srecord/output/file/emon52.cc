@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/emon52.h>
+
 #include <srecord/record.h>
 
 

@@ -23,6 +23,7 @@
 
 #include <srecord/input/filter.h>
 
+
 namespace srecord {
 
 /**

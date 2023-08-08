@@ -18,6 +18,7 @@
 
 #include <srecord/adler16.h>
 
+
 uint16_t
 srecord::adler16::get()
     const

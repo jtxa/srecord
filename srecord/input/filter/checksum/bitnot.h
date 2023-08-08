@@ -22,6 +22,7 @@
 
 #include <srecord/input/filter/checksum.h>
 
+
 namespace srecord {
 
 /**

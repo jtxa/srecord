@@ -25,8 +25,10 @@
 //      Peter Miller.
 //
 
-#include <iostream>
 #include <srecord/stm32.h>
+
+#include <iostream>
+
 
 //
 // This code is mostly copied from the CRC32 implementation. The only

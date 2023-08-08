@@ -21,6 +21,7 @@
 
 #include <srecord/output.h>
 
+
 namespace srecord {
 
 /**

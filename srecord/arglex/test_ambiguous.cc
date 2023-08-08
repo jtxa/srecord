@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
+
 #include <cstdio>
 #include <cstdlib>
-
-#include <srecord/arglex.h>
 
 
 void

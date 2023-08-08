@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-
 #include <srecord/input/filter/not.h>
+
 #include <srecord/record.h>
 
 

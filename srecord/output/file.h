@@ -20,9 +20,11 @@
 #ifndef SRECORD_OUTPUT_FILE_H
 #define SRECORD_OUTPUT_FILE_H
 
-#include <string>
-#include <srecord/output.h>
 #include <srecord/format_printf.h>
+#include <srecord/output.h>
+
+#include <string>
+
 
 namespace srecord {
 

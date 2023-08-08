@@ -19,9 +19,10 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_FLETCHER16_H
 #define SRECORD_INPUT_FILTER_MESSAGE_FLETCHER16_H
 
-#include <srecord/fletcher16.h>
 #include <srecord/endian.h>
+#include <srecord/fletcher16.h>
 #include <srecord/input/filter/message.h>
+
 
 namespace srecord
 {

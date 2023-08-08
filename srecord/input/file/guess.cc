@@ -16,18 +16,15 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
-
 #include <srecord/arglex.h>
-#include <srecord/quit/exception.h>
 #include <srecord/input/file/aomf.h>
 #include <srecord/input/file/ascii_hex.h>
 #include <srecord/input/file/atmel_generic.h>
 #include <srecord/input/file/binary.h>
 #include <srecord/input/file/brecord.h>
 #include <srecord/input/file/dec_binary.h>
-#include <srecord/input/file/emon52.h>
 #include <srecord/input/file/efinix_bit.h>
+#include <srecord/input/file/emon52.h>
 #include <srecord/input/file/fairchild.h>
 #include <srecord/input/file/fastload.h>
 #include <srecord/input/file/formatted_binary.h>
@@ -60,8 +57,11 @@
 #include <srecord/input/file/trs80.h>
 #include <srecord/input/file/vmem.h>
 #include <srecord/input/file/wilson.h>
+#include <srecord/quit/exception.h>
 #include <srecord/record.h>
 #include <srecord/sizeof.h>
+
+#include <cctype>
 
 
 typedef srecord::input_file::pointer (*func_p)(const std::string &file_name);

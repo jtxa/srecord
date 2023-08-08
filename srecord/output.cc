@@ -17,13 +17,14 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output.h>
+
+#include <srecord/quit.h>
+#include <srecord/record.h>
+
 #include <cerrno>
 #include <cstdio>
 #include <cstring>
-
-#include <srecord/quit.h>
-#include <srecord/output.h>
-#include <srecord/record.h>
 
 
 void

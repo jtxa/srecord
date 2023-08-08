@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/spectrum.h>
+
 #include <srecord/record.h>
 
 

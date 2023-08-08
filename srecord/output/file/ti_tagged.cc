@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/ti_tagged.h>
+
 #include <srecord/record.h>
 
 #include <cassert>

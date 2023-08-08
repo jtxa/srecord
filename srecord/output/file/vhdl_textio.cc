@@ -16,11 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file/vhdl_textio.h>
+
 #include <srecord/arglex/tool.h>
 #include <srecord/interval.h>
-#include <srecord/output/file/vhdl_textio.h>
-#include <srecord/record.h>
 #include <srecord/progname.h>
+#include <srecord/record.h>
 
 
 srecord::output_file_vhdl_textio::output_file_vhdl_textio(

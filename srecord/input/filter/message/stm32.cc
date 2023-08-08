@@ -25,8 +25,9 @@
 //      Peter Miller.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/filter/message/stm32.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/memory/walker/stm32.h>
 #include <srecord/record.h>
 

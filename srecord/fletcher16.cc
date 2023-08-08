@@ -16,9 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/fletcher16.h>
+
 #include <cassert>
 
-#include <srecord/fletcher16.h>
 
 //
 // http://en.wikipedia.org/wiki/Fletcher%27s_checksum

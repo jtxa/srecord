@@ -16,8 +16,7 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <iostream>
-#include <cstdlib>
+#include <srec_cat/arglex3.h>
 
 #include <srecord/input/catenate.h>
 #include <srecord/input/file.h>
@@ -29,7 +28,8 @@
 #include <srecord/record.h>
 #include <srecord/string.h>
 
-#include <srec_cat/arglex3.h>
+#include <cstdlib>
+#include <iostream>
 
 
 int

@@ -20,8 +20,9 @@
 #ifndef SRECORD_INPUT_INTERVAL_H
 #define SRECORD_INPUT_INTERVAL_H
 
-#include <srecord/interval.h>
 #include <srecord/input.h>
+#include <srecord/interval.h>
+
 
 namespace srecord {
 

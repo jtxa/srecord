@@ -16,14 +16,15 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/quit/normal.h>
+
+#include <srecord/progname.h>
+
 #include <cstdarg>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
-
-#include <srecord/progname.h>
-#include <srecord/quit/normal.h>
 
 
 void

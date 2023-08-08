@@ -18,6 +18,7 @@
 
 #include <srecord/quit/exception.h>
 
+
 void
 srecord::quit_exception::exit(int)
 {

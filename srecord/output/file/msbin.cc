@@ -19,10 +19,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file/msbin.h>
+
 #include <cassert>
 #include <memory>
-
-#include <srecord/output/file/msbin.h>
 
 
 srecord::output_file_msbin::~output_file_msbin()

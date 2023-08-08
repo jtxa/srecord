@@ -17,8 +17,8 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-
 #include <srecord/memory/walker/writer.h>
+
 #include <srecord/output.h>
 
 

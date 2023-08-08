@@ -22,6 +22,7 @@
 
 #include <srecord/input/filter/interval.h>
 
+
 namespace srecord {
 
 /**

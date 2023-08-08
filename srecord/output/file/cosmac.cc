@@ -18,7 +18,9 @@
 //
 
 #include <srecord/output/file/cosmac.h>
+
 #include <srecord/record.h>
+
 
 srecord::output_file_cosmac::output_file_cosmac(
     const std::string &a_file_name

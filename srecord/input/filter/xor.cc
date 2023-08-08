@@ -18,6 +18,7 @@
 //
 
 #include <srecord/input/filter/xor.h>
+
 #include <srecord/record.h>
 
 

@@ -17,12 +17,13 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-#include <cstring>
+#include <srecord/output/file/basic.h>
 
 #include <srecord/interval.h>
-#include <srecord/output/file/basic.h>
 #include <srecord/record.h>
+
+#include <cstdio>
+#include <cstring>
 
 
 srecord::output_file_basic::~output_file_basic()

@@ -17,7 +17,6 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-
 #include <srecord/config.h>
 
 

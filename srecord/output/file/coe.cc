@@ -16,9 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/progname.h>
-#include <srecord/arglex/tool.h>
 #include <srecord/output/file/coe.h>
+
+#include <srecord/arglex/tool.h>
+#include <srecord/progname.h>
 #include <srecord/record.h>
 
 

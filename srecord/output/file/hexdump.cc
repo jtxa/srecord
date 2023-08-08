@@ -17,10 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/output/file/hexdump.h>
+
 #include <srecord/record.h>
+
+#include <cstring>
 
 
 srecord::output_file_hexdump::~output_file_hexdump()

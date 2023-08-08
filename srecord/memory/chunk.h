@@ -19,9 +19,10 @@
 #ifndef SRECORD_MEMORY_CHUNK_H
 #define SRECORD_MEMORY_CHUNK_H
 
+#include <srecord/memory/walker.h>
+
 #include <cstddef>
 
-#include <srecord/memory/walker.h>
 
 namespace srecord {
 

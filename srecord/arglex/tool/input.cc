@@ -17,9 +17,6 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <iostream>
-
-#include <srecord/quit.h>
 #include <srecord/arglex/tool.h>
 #include <srecord/input/catenate.h>
 #include <srecord/input/file/aomf.h>
@@ -29,12 +26,12 @@
 #include <srecord/input/file/brecord.h>
 #include <srecord/input/file/cosmac.h>
 #include <srecord/input/file/dec_binary.h>
+#include <srecord/input/file/efinix_bit.h>
 #include <srecord/input/file/emon52.h>
 #include <srecord/input/file/fairchild.h>
 #include <srecord/input/file/fastload.h>
 #include <srecord/input/file/formatted_binary.h>
 #include <srecord/input/file/four_packed_code.h>
-#include <srecord/input/file/efinix_bit.h>
 #include <srecord/input/file/gowin_fs.h>
 #include <srecord/input/file/hexdump.h>
 #include <srecord/input/file/hp64k.h>
@@ -79,10 +76,10 @@
 #include <srecord/input/filter/message/adler32.h>
 #include <srecord/input/filter/message/crc16.h>
 #include <srecord/input/filter/message/crc32.h>
-#include <srecord/input/filter/message/stm32.h>
 #include <srecord/input/filter/message/fletcher16.h>
 #include <srecord/input/filter/message/fletcher32.h>
 #include <srecord/input/filter/message/gcrypt.h>
+#include <srecord/input/filter/message/stm32.h>
 #include <srecord/input/filter/nibble_swap.h>
 #include <srecord/input/filter/not.h>
 #include <srecord/input/filter/offset.h>
@@ -95,6 +92,9 @@
 #include <srecord/input/filter/xor.h>
 #include <srecord/input/generator.h>
 #include <srecord/input/interval.h>
+#include <srecord/quit.h>
+
+#include <iostream>
 
 
 srecord::endian_t

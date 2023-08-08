@@ -19,8 +19,10 @@
 #ifndef SRECORD_QUIT_PREFIX_H
 #define SRECORD_QUIT_PREFIX_H
 
-#include <string>
 #include <srecord/quit.h>
+
+#include <string>
+
 
 namespace srecord
 {

@@ -23,6 +23,7 @@
 #include <srecord/memory/walker.h>
 #include <srecord/output.h>
 
+
 namespace srecord {
 
 /**

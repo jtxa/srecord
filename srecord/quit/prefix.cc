@@ -16,10 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-#include <cstdarg>
-
 #include <srecord/quit/prefix.h>
+
+#include <cstdarg>
+#include <cstdio>
 
 
 srecord::quit_prefix::quit_prefix(quit &a1, const char *a2) :

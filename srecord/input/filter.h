@@ -20,8 +20,8 @@
 #ifndef SRECORD_INPUT_FILTER_H
 #define SRECORD_INPUT_FILTER_H
 
-
 #include <srecord/input.h>
+
 
 namespace srecord {
 

@@ -20,11 +20,11 @@
 #ifndef SRECORD_INPUT_FILTER_CHECKSUM_H
 #define SRECORD_INPUT_FILTER_CHECKSUM_H
 
-
 #include <srecord/endian.h>
-#include <srecord/interval.h>
 #include <srecord/input/filter.h>
+#include <srecord/interval.h>
 #include <srecord/record.h>
+
 
 namespace srecord {
 

@@ -28,9 +28,10 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_STM32_H
 #define SRECORD_INPUT_FILTER_MESSAGE_STM32_H
 
-#include <srecord/stm32.h>
 #include <srecord/endian.h>
 #include <srecord/input/filter/message.h>
+#include <srecord/stm32.h>
+
 
 namespace srecord
 {

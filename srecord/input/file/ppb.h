@@ -22,6 +22,7 @@
 #include <srecord/input/file.h>
 #include <srecord/record.h>
 
+
 namespace srecord {
 
 /**

@@ -22,6 +22,7 @@
  */
 
 #include <srecord/output/file/os65a.h>
+
 #include <srecord/record.h>
 
 

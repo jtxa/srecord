@@ -16,8 +16,9 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/file/stewie.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
 
 

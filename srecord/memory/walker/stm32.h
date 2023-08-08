@@ -28,8 +28,9 @@
 #ifndef SRECORD_MEMORY_WALKER_STM32_H
 #define SRECORD_MEMORY_WALKER_STM32_H
 
-#include <srecord/stm32.h>
 #include <srecord/memory/walker.h>
+#include <srecord/stm32.h>
+
 
 namespace srecord
 {

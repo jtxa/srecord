@@ -16,14 +16,16 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/input/file/logisim.h>
+
+#include <srecord/arglex/tool.h>
+#include <srecord/string.h>
+
 #include <cassert>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 
-#include <srecord/arglex/tool.h>
-#include <srecord/input/file/logisim.h>
-#include <srecord/string.h>
 
 srecord::input_file_logisim::input_file_logisim(
     const std::string &a_file_name

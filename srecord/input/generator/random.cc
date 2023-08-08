@@ -17,8 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/r250.h>
 #include <srecord/input/generator/random.h>
+
+#include <srecord/r250.h>
 
 
 srecord::input_generator_random::input_generator_random(

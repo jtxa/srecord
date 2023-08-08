@@ -17,6 +17,7 @@
 //
 
 #include <srecord/memory/walker/fletcher16.h>
+
 #include <srecord/output.h>
 
 

@@ -37,7 +37,6 @@
 // over 16-bit FCS.
 //
 
-
 #include <srecord/crc32.h>
 
 

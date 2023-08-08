@@ -16,11 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
+#include <srecord/input/file/needham.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file/needham.h>
 #include <srecord/record.h>
+
+#include <cctype>
 
 
 srecord::input_file_needham::input_file_needham(

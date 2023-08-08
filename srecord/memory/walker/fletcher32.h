@@ -22,6 +22,7 @@
 #include <srecord/fletcher32.h>
 #include <srecord/memory/walker.h>
 
+
 namespace srecord
 {
 

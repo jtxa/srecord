@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/fairchild.h>
+
 #include <srecord/record.h>
 
 

@@ -17,9 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstdio>
-
 #include <srecord/pretty_size.h>
+
+#include <cstdio>
 
 
 std::string

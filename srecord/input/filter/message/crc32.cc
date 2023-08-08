@@ -17,8 +17,9 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/filter/message/crc32.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/memory/walker/crc32.h>
 #include <srecord/record.h>
 

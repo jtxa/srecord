@@ -16,9 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/file/cosmac.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
+
 
 srecord::input_file_cosmac::input_file_cosmac(const std::string &a_file_name) :
     input_file(a_file_name)

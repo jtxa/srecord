@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/intel16.h>
+
 #include <srecord/record.h>
 
 

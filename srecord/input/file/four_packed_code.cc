@@ -16,9 +16,11 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/arglex/tool.h>
 #include <srecord/input/file/four_packed_code.h>
+
+#include <srecord/arglex/tool.h>
 #include <srecord/record.h>
+
 
 srecord::input_file_four_packed_code::input_file_four_packed_code(
     const std::string &a_file_name

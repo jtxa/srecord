@@ -20,13 +20,14 @@
 #ifndef SRECORD_MEMORY_H
 #define SRECORD_MEMORY_H
 
-#include <string>
-
 #include <srecord/defcon.h>
 #include <srecord/input.h>
 #include <srecord/memory/chunk.h>
 #include <srecord/memory/walker.h>
 #include <srecord/string.h>
+
+#include <string>
+
 
 namespace srecord {
 

@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/signetics.h>
+
 #include <srecord/record.h>
 
 

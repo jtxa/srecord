@@ -19,12 +19,13 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <cassert>
+#include <srecord/input/file/trs80.h>
 
 #include <srecord/arglex/tool.h>
 #include <srecord/endian.h>
-#include <srecord/input/file/trs80.h>
 #include <srecord/record.h>
+
+#include <cassert>
 
 
 srecord::input_file_trs80::~input_file_trs80()

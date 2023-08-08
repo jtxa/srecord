@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/ti_tagged_16.h>
+
 #include <srecord/record.h>
 
 #include <cctype>

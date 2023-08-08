@@ -18,8 +18,8 @@
 //
 
 #include <srecord/arglex.h>
-#include <srecord/sizeof.h>
 #include <srecord/output/file.h>
+#include <srecord/sizeof.h>
 
 
 srecord::output_file::line_termination_t

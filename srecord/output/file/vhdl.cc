@@ -17,11 +17,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/file/vhdl.h>
+
 #include <srecord/arglex/tool.h>
 #include <srecord/interval.h>
-#include <srecord/output/file/vhdl.h>
-#include <srecord/record.h>
 #include <srecord/progname.h>
+#include <srecord/record.h>
 
 
 srecord::output_file_vhdl::~output_file_vhdl()

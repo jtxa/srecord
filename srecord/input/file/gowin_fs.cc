@@ -16,12 +16,13 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <iostream>
-#include <cctype>
+#include <srecord/input/file/gowin_fs.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file/gowin_fs.h>
 #include <srecord/record.h>
+
+#include <cctype>
+#include <iostream>
 
 
 srecord::input_file_gowin_fs::input_file_gowin_fs(

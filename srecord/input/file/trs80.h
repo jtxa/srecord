@@ -22,8 +22,8 @@
 #ifndef SRECORD_INPUT_FILE_TRS80_H
 #define SRECORD_INPUT_FILE_TRS80_H
 
-
 #include <srecord/input/file.h>
+
 
 namespace srecord {
 

@@ -22,6 +22,7 @@
 
 #include <srecord/input/generator.h>
 
+
 namespace srecord
 {
 

@@ -19,8 +19,9 @@
 #ifndef SRECORD_OUTPUT_FILE_MIPS_FLASH_H
 #define SRECORD_OUTPUT_FILE_MIPS_FLASH_H
 
-#include <srecord/output/file.h>
 #include <srecord/endian.h>
+#include <srecord/output/file.h>
+
 
 namespace srecord {
 

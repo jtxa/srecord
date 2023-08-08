@@ -16,8 +16,9 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include <srecord/bitrev.h>
 #include <srecord/input/filter/bitrev.h>
+
+#include <srecord/bitrev.h>
 #include <srecord/record.h>
 
 

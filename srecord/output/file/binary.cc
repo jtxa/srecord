@@ -18,7 +18,9 @@
 //
 
 #include <srecord/output/file/binary.h>
+
 #include <srecord/record.h>
+
 
 srecord::output_file_binary::output_file_binary(
     const std::string &a_file_name

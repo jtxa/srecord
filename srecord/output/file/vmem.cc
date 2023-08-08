@@ -17,11 +17,12 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cctype>
+#include <srecord/output/file/vmem.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/output/file/vmem.h>
 #include <srecord/record.h>
+
+#include <cctype>
 
 
 srecord::output_file_vmem::~output_file_vmem()

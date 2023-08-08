@@ -19,6 +19,7 @@
 //
 
 #include <srecord/input/filter/nibble_swap.h>
+
 #include <srecord/record.h>
 
 

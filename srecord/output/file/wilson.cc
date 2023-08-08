@@ -17,10 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/output/file/wilson.h>
+
 #include <srecord/record.h>
+
+#include <cstring>
 
 
 srecord::output_file_wilson::output_file_wilson(

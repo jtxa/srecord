@@ -18,6 +18,7 @@
 //
 
 #include <srecord/output/file/ascii_hex.h>
+
 #include <srecord/record.h>
 
 

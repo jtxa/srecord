@@ -16,11 +16,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/output/filter/reblock.h>
+
+#include <srecord/record.h>
+
 #include <cassert>
 #include <cstring>
-
-#include <srecord/output/filter/reblock.h>
-#include <srecord/record.h>
 
 
 srecord::output_filter_reblock::~output_filter_reblock()

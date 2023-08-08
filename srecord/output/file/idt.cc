@@ -17,6 +17,7 @@
 //
 
 #include <srecord/output/file/idt.h>
+
 #include <srecord/record.h>
 
 

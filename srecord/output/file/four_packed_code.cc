@@ -17,10 +17,11 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-#include <cstring>
-
 #include <srecord/output/file/four_packed_code.h>
+
 #include <srecord/record.h>
+
+#include <cstring>
 
 
 static uint8_t digit[] = {

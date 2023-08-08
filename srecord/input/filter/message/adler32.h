@@ -23,6 +23,7 @@
 #include <srecord/endian.h>
 #include <srecord/input/filter/message.h>
 
+
 namespace srecord
 {
 

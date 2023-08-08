@@ -19,11 +19,12 @@
 #ifndef SRECORD_INPUT_H
 #define SRECORD_INPUT_H
 
+#include <srecord/format_printf.h>
+
 #include <cstdarg>
 #include <memory>
 #include <string>
 
-#include <srecord/format_printf.h>
 
 namespace srecord {
 
