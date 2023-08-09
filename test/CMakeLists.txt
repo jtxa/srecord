@@ -68,13 +68,40 @@ foreach(t ${SRECORD_TESTS})
         PATH=path_list_prepend:${CMAKE_SOURCE_DIR}/test)
 endforeach()
 
+# Include-What-You-Use
+
 find_program(IWYU_TOOL_PROGRAM NAMES iwyu_tool)
+
 if(IWYU_TOOL_PROGRAM)
-    add_custom_target(iwyu_check
+    cmake_host_system_information(RESULT cpu_count QUERY NUMBER_OF_LOGICAL_CORES)
+    set(IWYU_TOOL_FLAGS
+        -j ${cpu_count}
+    )
+
+    add_custom_target(iwyu_tool
+        COMMENT "Check IWYU"
         COMMAND
             ${IWYU_TOOL_PROGRAM}
             -p ${PROJECT_BINARY_DIR}
+            -o clang
+            ${IWYU_TOOL_FLAGS}
             --
             -Xiwyu --mapping_file=${PROJECT_SOURCE_DIR}/test/iwyu_srecord.imp
+        USES_TERMINAL
+    )
+
+    add_custom_target(iwyu_tool_and_fix
+        COMMENT "Check IWYU"
+        COMMAND
+            ${IWYU_TOOL_PROGRAM}
+            -p ${PROJECT_BINARY_DIR}
+            #-o clang
+            ${IWYU_TOOL_FLAGS}
+            --
+            -Xiwyu --mapping_file=${PROJECT_SOURCE_DIR}/test/iwyu_srecord.imp
+            |
+            fix_include
+            --nosafe_headers
+        USES_TERMINAL
     )
 endif()
