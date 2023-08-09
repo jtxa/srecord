@@ -32,6 +32,8 @@
 #include <cctype>
 #include <cerrno>
 #include <cstdio>
+#include <cstdarg>
+#include <cstdint>
 #include <cstdlib>
 #include <cstring>
 #include <iostream>

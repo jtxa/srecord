@@ -19,7 +19,6 @@
 #ifndef SRECORD_MEMORY_WALKER_GCRYPT_H
 #define SRECORD_MEMORY_WALKER_GCRYPT_H
 
-#include <srecord/config.h>
 #include <srecord/memory/walker.h>
 
 #ifdef HAVE_LIBGCRYPT
@@ -28,6 +27,7 @@
 typedef void *gcry_md_hd_t;
 #endif
 
+#include <cstdint>
 
 namespace srecord
 {
