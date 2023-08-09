@@ -52,6 +52,7 @@ Freescale
 fubar
 GCrypt
 Geluso
+getopt
 GhostScript
 Giancristofaro
 Gracic
@@ -64,6 +65,7 @@ hexdump
 INHX
 inout
 Interix
+iwyu
 Izzet
 Jens
 joegeluso
@@ -158,6 +160,7 @@ Weirich
 winman
 wwhelp
 xiretza
+Xiwyu
 xmodem
 XOFF
 XXDP

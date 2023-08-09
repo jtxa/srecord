@@ -67,3 +67,14 @@ foreach(t ${SRECORD_TESTS})
         PATH=path_list_prepend:${CMAKE_BINARY_DIR}/test
         PATH=path_list_prepend:${CMAKE_SOURCE_DIR}/test)
 endforeach()
+
+find_program(IWYU_TOOL_PROGRAM NAMES iwyu_tool)
+if(IWYU_TOOL_PROGRAM)
+    add_custom_target(iwyu_check
+        COMMAND
+            ${IWYU_TOOL_PROGRAM}
+            -p ${PROJECT_BINARY_DIR}
+            --
+            -Xiwyu --mapping_file=${PROJECT_SOURCE_DIR}/test/iwyu_srecord.imp
+    )
+endif()

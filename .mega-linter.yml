@@ -22,6 +22,9 @@ BASH_SHELLCHECK_ARGUMENTS: --external-sources --source-path=test
 # Setup coding style
 BASH_SHFMT_ARGUMENTS: --posix --indent 4 --space-redirects --func-next-line
 
+# CPP_CPPLINT:
+CPP_CPPLINT_ARGUMENTS: --counting=detailed
+
 # EDITORCONFIG:
 # EditorConfig itself is configured in .editorconfig
 EDITORCONFIG_EDITORCONFIG_CHECKER_ARGUMENTS: -disable-indent-size
