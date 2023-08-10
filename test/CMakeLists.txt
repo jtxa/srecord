@@ -78,20 +78,20 @@ if(IWYU_TOOL_PROGRAM)
         -j ${cpu_count}
     )
 
-    add_custom_target(iwyu_tool
+    add_custom_target(iwyu_check
         COMMENT "Check IWYU"
         COMMAND
             ${IWYU_TOOL_PROGRAM}
             -p ${PROJECT_BINARY_DIR}
-            -o clang
             ${IWYU_TOOL_FLAGS}
             --
             -Xiwyu --mapping_file=${PROJECT_SOURCE_DIR}/test/iwyu_srecord.imp
+            -Xiwyu --verbose=0
         USES_TERMINAL
     )
 
-    add_custom_target(iwyu_tool_and_fix
-        COMMENT "Check IWYU"
+    add_custom_target(iwyu_fix
+        COMMENT "Fix IWYU"
         COMMAND
             ${IWYU_TOOL_PROGRAM}
             -p ${PROJECT_BINARY_DIR}
