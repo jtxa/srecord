@@ -9,6 +9,7 @@ Checks: >-
   clang-analyzer-*,
   -clang-analyzer-osx.*,
   concurrency-*,
+  llvm-*,
   misc-*,
   modernize-*,
   performance-*,
