@@ -21,6 +21,8 @@
 #include <srecord/output/file.h>
 #include <srecord/sizeof.h>
 
+#include <string>
+
 
 srecord::output_file::line_termination_t
   srecord::output_file::line_termination =

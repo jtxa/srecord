@@ -23,6 +23,8 @@
 #include <srecord/interval.h>
 #include <srecord/record.h>
 
+#include <memory>
+
 
 srecord::interval
 srecord::input_interval(srecord::input::pointer ifp)

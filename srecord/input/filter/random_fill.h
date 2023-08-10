@@ -20,13 +20,15 @@
 #ifndef SRECORD_INPUT_FILTER_RANDOM_FILL_H
 #define SRECORD_INPUT_FILTER_RANDOM_FILL_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 #include <srecord/interval.h>
-#include <srecord/record.h>
 
 
 namespace srecord
 {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_random_fill class is used to represent a filter

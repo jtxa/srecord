@@ -17,8 +17,12 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/endian.h>
+#include <srecord/input.h>
 #include <srecord/input/catenate.h>
+#include <srecord/input/file.h>
 #include <srecord/input/file/aomf.h>
 #include <srecord/input/file/ascii_hex.h>
 #include <srecord/input/file/atmel_generic.h>
@@ -91,10 +95,12 @@
 #include <srecord/input/filter/unsplit.h>
 #include <srecord/input/filter/xor.h>
 #include <srecord/input/generator.h>
-#include <srecord/input/interval.h>
+#include <srecord/interval.h>
 #include <srecord/quit.h>
 
-#include <iostream>
+#include <cstdint>
+#include <memory>
+#include <string>
 
 
 srecord::endian_t

@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/fastload.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_fastload::~output_file_fastload()

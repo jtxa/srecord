@@ -21,7 +21,11 @@
 
 #include <srecord/output/file/trs80.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_trs80::~output_file_trs80()

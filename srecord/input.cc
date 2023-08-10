@@ -19,12 +19,10 @@
 
 #include <srecord/input.h>
 
+#include <srecord/quit.h>
 #include <srecord/quit/prefix.h>
-#include <srecord/record.h>
 
-#include <cerrno>
-#include <cstring>
-#include <iostream>
+#include <cstdarg>
 
 
 srecord::input::input() :

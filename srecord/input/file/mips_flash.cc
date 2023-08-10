@@ -19,6 +19,8 @@
 #include <srecord/input/file/mips_flash.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/endian.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 

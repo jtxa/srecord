@@ -21,6 +21,8 @@
 
 #include <srecord/input.h>
 
+#include <cstdint>
+#include <memory>
 #include <string>
 
 

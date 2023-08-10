@@ -21,6 +21,7 @@
 
 #include <srecord/quit.h>
 
+#include <cstdarg>
 #include <string>
 
 

@@ -20,7 +20,13 @@
 #define SRECORD_OUTPUT_FILE_MIPS_FLASH_H
 
 #include <srecord/endian.h>
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstddef>
+#include <cstdint>
+#include <string>
 
 
 namespace srecord {

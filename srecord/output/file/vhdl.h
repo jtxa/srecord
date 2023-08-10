@@ -20,11 +20,17 @@
 #ifndef SRECORD_OUTPUT_FILE_VHDL_H
 #define SRECORD_OUTPUT_FILE_VHDL_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <string>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
 
 /**
   * The srecord::output_file_vhdl class is used to represent the state out

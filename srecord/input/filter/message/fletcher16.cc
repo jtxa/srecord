@@ -18,9 +18,16 @@
 
 #include <srecord/input/filter/message/fletcher16.h>
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/endian.h>
+#include <srecord/input.h>
+#include <srecord/input/filter/message.h>
+#include <srecord/memory.h>
 #include <srecord/memory/walker/fletcher16.h>
 #include <srecord/record.h>
+
+#include <memory>
 
 
 srecord::input_filter_message_fletcher16::input_filter_message_fletcher16(

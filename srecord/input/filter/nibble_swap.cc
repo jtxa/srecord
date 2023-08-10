@@ -20,7 +20,12 @@
 
 #include <srecord/input/filter/nibble_swap.h>
 
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstddef>
+#include <cstdint>
 
 
 srecord::input_filter_nibble_swap::input_filter_nibble_swap(

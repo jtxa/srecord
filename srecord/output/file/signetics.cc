@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/signetics.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_signetics::~output_file_signetics()

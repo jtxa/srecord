@@ -22,6 +22,7 @@
 
 #include <getopt.h>
 
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <string>

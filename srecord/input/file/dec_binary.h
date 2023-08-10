@@ -21,8 +21,13 @@
 
 #include <srecord/input/file.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_dec_binary class is used to parse a DEC

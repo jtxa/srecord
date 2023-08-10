@@ -20,8 +20,15 @@
 #include <srecord/input/filter/message/crc32.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/crc32.h>
+#include <srecord/endian.h>
+#include <srecord/input.h>
+#include <srecord/input/filter/message.h>
+#include <srecord/memory.h>
 #include <srecord/memory/walker/crc32.h>
 #include <srecord/record.h>
+
+#include <memory>
 
 
 srecord::input_filter_message_crc32::input_filter_message_crc32(

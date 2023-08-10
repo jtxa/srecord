@@ -20,11 +20,14 @@
 #ifndef SRECORD_INPUT_FILTER_OR_H
 #define SRECORD_INPUT_FILTER_OR_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 
 
 namespace srecord
 {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_and class is used to represent the input state

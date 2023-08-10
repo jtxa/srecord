@@ -18,7 +18,13 @@
 
 #include <srecord/input/filter/message.h>
 
+#include <srecord/defcon.h>
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
+#include <srecord/memory.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::input_filter_message::input_filter_message(

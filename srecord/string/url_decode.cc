@@ -18,7 +18,9 @@
 
 #include <srecord/string.h>
 
+#include <cstdint>
 #include <sstream>
+#include <string>
 
 
 static bool

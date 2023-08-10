@@ -19,9 +19,11 @@
 #include <srecord/input/file/atmel_generic.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/endian.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
-#include <cctype>
+#include <cstdint>
 
 
 srecord::input_file_atmel_generic::input_file_atmel_generic(

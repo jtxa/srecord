@@ -20,7 +20,11 @@
 #ifndef SRECORD_OUTPUT_FILE_SIGNETICS_H
 #define SRECORD_OUTPUT_FILE_SIGNETICS_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+
+#include <cstdint>
+#include <string>
 
 
 namespace srecord

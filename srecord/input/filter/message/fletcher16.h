@@ -20,12 +20,18 @@
 #define SRECORD_INPUT_FILTER_MESSAGE_FLETCHER16_H
 
 #include <srecord/endian.h>
-#include <srecord/fletcher16.h>
+#include <srecord/input.h>
 #include <srecord/input/filter/message.h>
+
+#include <cstdint>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
+class memory; // forward
+class record; // forward
 
 /**
   * The srecord::input_filter_message_fletcher16 class is used to represent

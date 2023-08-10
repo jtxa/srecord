@@ -19,7 +19,10 @@
 #include <srecord/input/file/mif.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
+
+#include <cstdlib>
 
 
 srecord::input_file_mif::input_file_mif(const std::string &a_file_name) :

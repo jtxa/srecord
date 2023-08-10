@@ -19,7 +19,13 @@
 
 #include <srecord/input/filter/interval.h>
 
+#include <srecord/endian.h>
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
+#include <srecord/interval.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::input_filter_interval::input_filter_interval(

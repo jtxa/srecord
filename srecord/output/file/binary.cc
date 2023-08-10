@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/binary.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::output_file_binary::output_file_binary(

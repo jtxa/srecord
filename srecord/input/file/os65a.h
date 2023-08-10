@@ -26,8 +26,13 @@
 
 #include <srecord/input/file.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_os65a class is used to represent the input state

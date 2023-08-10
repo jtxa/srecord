@@ -18,8 +18,10 @@
 
 #include <srecord/string.h>
 
-#include <cstring>
+#include <cctype>
+#include <cstdint>
 #include <sstream>
+#include <string>
 
 
 static char

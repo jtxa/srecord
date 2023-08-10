@@ -19,12 +19,17 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_H
 #define SRECORD_INPUT_FILTER_MESSAGE_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 #include <srecord/memory.h>
+
+#include <cstdint>
 
 
 namespace srecord
 {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_message class is used to represent an abstract

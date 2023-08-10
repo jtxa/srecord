@@ -21,8 +21,13 @@
 
 #include <srecord/input/file.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_four_packed_code represents an input file in

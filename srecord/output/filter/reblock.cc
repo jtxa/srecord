@@ -18,6 +18,8 @@
 
 #include <srecord/output/filter/reblock.h>
 
+#include <srecord/output.h>
+#include <srecord/output/filter.h>
 #include <srecord/record.h>
 
 #include <cassert>

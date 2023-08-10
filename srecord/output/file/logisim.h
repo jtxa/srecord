@@ -19,7 +19,11 @@
 #ifndef SRECORD_OUTPUT_FILE_LOGISIM_H
 #define SRECORD_OUTPUT_FILE_LOGISIM_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <string>
 
 
 namespace srecord {

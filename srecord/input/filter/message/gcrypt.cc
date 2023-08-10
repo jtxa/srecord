@@ -18,10 +18,16 @@
 
 #include <srecord/input/filter/message/gcrypt.h>
 
-#include <srecord/memory/walker/gcrypt.h>
+#include <srecord/input.h>
+#include <srecord/input/filter/message.h>
 #include <srecord/quit.h>
 #include <srecord/record.h>
-#include <srecord/sizeof.h>
+
+
+namespace srecord {
+
+class memory; // forward
+}  // namespace srecord
 
 
 srecord::input_filter_message_gcrypt::input_filter_message_gcrypt(

@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/dec_binary.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 #define BLOCK_SIZE 512

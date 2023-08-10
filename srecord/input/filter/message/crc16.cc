@@ -19,10 +19,18 @@
 
 #include <srecord/input/filter/message/crc16.h>
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/crc16.h>
+#include <srecord/endian.h>
+#include <srecord/input.h>
+#include <srecord/input/filter/message.h>
 #include <srecord/memory.h>
 #include <srecord/memory/walker/crc16.h>
 #include <srecord/record.h>
+
+#include <memory>
+#include <string>
 
 
 srecord::input_filter_message_crc16::input_filter_message_crc16(

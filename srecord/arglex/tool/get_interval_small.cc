@@ -21,6 +21,9 @@
 #include <srecord/interval.h>
 #include <srecord/pretty_size.h>
 
+#include <cstdint>
+#include <string>
+
 
 srecord::interval
 srecord::arglex_tool::get_interval_small(const char *caption)

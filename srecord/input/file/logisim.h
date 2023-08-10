@@ -24,6 +24,7 @@
 
 #include <cinttypes>
 #include <list>
+#include <string>
 
 
 namespace srecord {

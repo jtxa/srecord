@@ -19,6 +19,7 @@
 #include <srecord/input/file/binary.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 
@@ -38,19 +39,6 @@ srecord::input_file_binary::create(const std::string &a_file_name)
 bool
 srecord::input_file_binary::read(srecord::record &record)
 {
-#ifdef HAVE_SPARSE_LSEEK
-    //
-    // On Solaris, they have a couple of new lseek whence in order to
-    // navigate around holes in the file data.
-    //
-    //     fpathconf(fd, _PC_MIN_HOLE_SIZE);
-    //     lseek(fd, address, SEEK_DATA);
-    //     lseek(fd, address, SEEK_HOLE);
-    //
-    // Using these, it would be possible to actually report file holes
-    // via the srecord API.
-    //
-#endif
 
     int c = get_char();
     if (c < 0)

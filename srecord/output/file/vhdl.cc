@@ -19,10 +19,16 @@
 
 #include <srecord/output/file/vhdl.h>
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
-#include <srecord/interval.h>
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/progname.h>
 #include <srecord/record.h>
+
+#include <cctype>
+#include <cstddef>
+#include <cstdint>
 
 
 srecord::output_file_vhdl::~output_file_vhdl()

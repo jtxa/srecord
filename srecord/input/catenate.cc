@@ -18,9 +18,11 @@
 
 #include <srecord/input/catenate.h>
 
+#include <srecord/input.h>
 #include <srecord/record.h>
 
 #include <cassert>
+#include <memory>
 
 
 srecord::input_catenate::input_catenate(const pointer &a1, const pointer &a2) :

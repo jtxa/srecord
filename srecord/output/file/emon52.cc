@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/emon52.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_emon52::output_file_emon52(

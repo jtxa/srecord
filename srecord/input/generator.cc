@@ -20,13 +20,16 @@
 #include <srecord/input/generator.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input.h>
 #include <srecord/input/generator/constant.h>
 #include <srecord/input/generator/random.h>
 #include <srecord/input/generator/repeat.h>
+#include <srecord/interval.h>
 #include <srecord/record.h>
 #include <srecord/string.h>
 
 #include <cstring>
+#include <string>
 
 
 srecord::input_generator::input_generator(const interval &a_range) :

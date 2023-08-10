@@ -20,6 +20,8 @@
 #ifndef SRECORD_INPUT_FILTER_CHECKSUM_POSITIVE_H
 #define SRECORD_INPUT_FILTER_CHECKSUM_POSITIVE_H
 
+#include <srecord/endian.h>
+#include <srecord/input.h>
 #include <srecord/input/filter/checksum.h>
 
 

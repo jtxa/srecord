@@ -21,8 +21,14 @@
 
 #include <srecord/output.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class arglex_tool; // forward
+class record; // forward
 
 /**
   * The output_filter class is used to represent a generic output

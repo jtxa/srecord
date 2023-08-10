@@ -18,9 +18,14 @@
 
 #include <srecord/output/file/coe.h>
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/progname.h>
 #include <srecord/record.h>
+
+#include <cctype>
 
 
 srecord::output_file_coe::~output_file_coe()

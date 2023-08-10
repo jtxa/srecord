@@ -19,7 +19,11 @@
 
 #include <srecord/input/filter/split.h>
 
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::input_filter_split::input_filter_split(const input::pointer &a1,

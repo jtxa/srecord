@@ -19,9 +19,9 @@
 
 #include <srecord/arglex/tool.h>
 
+#include <srecord/arglex.h>
+#include <srecord/defcon.h>
 #include <srecord/input/file.h>
-
-#include <iostream>
 
 
 srecord::arglex_tool::arglex_tool(int argc, char **argv) :

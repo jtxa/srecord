@@ -19,11 +19,17 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_GCRYPT_H
 #define SRECORD_INPUT_FILTER_MESSAGE_GCRYPT_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter/message.h>
+
+#include <cstdint>
 
 
 namespace srecord
 {
+
+class memory; // forward
+class record; // forward
 
 /**
   * The srecord::input_filter_message_gcrypt class is used to represent a

@@ -19,7 +19,7 @@
 
 #include <srecord/memory/walker/crc32.h>
 
-#include <srecord/output.h>
+#include <srecord/crc32.h>
 
 
 srecord::memory_walker_crc32::memory_walker_crc32(

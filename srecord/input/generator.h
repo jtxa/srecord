@@ -23,9 +23,14 @@
 #include <srecord/input.h>
 #include <srecord/interval.h>
 
+#include <cstdint>
+
 
 namespace srecord
 {
+
+class arglex_tool; // forward
+class record; // forward
 
 /**
   * The srecord::input_generator class is used to represent the state of

@@ -19,10 +19,7 @@
 
 #include <srecord/input/file.h>
 
-#include <cerrno>
 #include <cstdio>
-#include <cstring>
-#include <iostream>
 
 
 bool srecord::input_file::ignore_checksums_default = false;

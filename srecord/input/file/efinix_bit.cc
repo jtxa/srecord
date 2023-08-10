@@ -19,10 +19,10 @@
 #include <srecord/input/file/efinix_bit.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
-#include <cctype>
-#include <iostream>
+#include <cstdio>
 
 
 srecord::input_file_efinix_bit::input_file_efinix_bit(

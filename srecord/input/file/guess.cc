@@ -17,6 +17,7 @@
 //
 
 #include <srecord/arglex.h>
+#include <srecord/input/file.h>
 #include <srecord/input/file/aomf.h>
 #include <srecord/input/file/ascii_hex.h>
 #include <srecord/input/file/atmel_generic.h>
@@ -57,11 +58,13 @@
 #include <srecord/input/file/trs80.h>
 #include <srecord/input/file/vmem.h>
 #include <srecord/input/file/wilson.h>
+#include <srecord/quit.h>
 #include <srecord/quit/exception.h>
 #include <srecord/record.h>
 #include <srecord/sizeof.h>
 
-#include <cctype>
+#include <memory>
+#include <string>
 
 
 typedef srecord::input_file::pointer (*func_p)(const std::string &file_name);

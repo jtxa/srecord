@@ -31,6 +31,9 @@
 #include <srecord/memory/walker.h>
 #include <srecord/stm32.h>
 
+#include <cstdint>
+#include <memory>
+
 
 namespace srecord
 {

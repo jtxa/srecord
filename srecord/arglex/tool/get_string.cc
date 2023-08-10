@@ -17,7 +17,10 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+
+#include <string>
 
 
 std::string

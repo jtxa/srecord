@@ -22,11 +22,12 @@
 #include <srecord/input/file/msbin.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
+#include <srecord/record.h>
 
 #include <algorithm>
 #include <cassert>
 #include <cstring>
-#include <limits>
 
 
 srecord::input_file_msbin::~input_file_msbin()

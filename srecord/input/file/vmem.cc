@@ -19,9 +19,11 @@
 #include <srecord/input/file/vmem.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 #include <cctype>
+#include <cstddef>
 
 
 srecord::input_file_vmem::input_file_vmem(const std::string &a_file_name) :

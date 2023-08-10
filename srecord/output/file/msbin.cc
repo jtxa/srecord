@@ -21,6 +21,10 @@
 
 #include <srecord/output/file/msbin.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
+#include <srecord/record.h>
+
 #include <cassert>
 #include <memory>
 

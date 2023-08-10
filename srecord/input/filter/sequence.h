@@ -20,11 +20,16 @@
 #ifndef SRECORD_INPUT_FILTER_SEQUENCE_H
 #define SRECORD_INPUT_FILTER_SEQUENCE_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
+
+#include <cstdint>
 
 
 namespace srecord
 {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_sequence class is used to represent an input

@@ -20,7 +20,12 @@
 #ifndef SRECORD_OUTPUT_FILE_EMON52_H
 #define SRECORD_OUTPUT_FILE_EMON52_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstdint>
+#include <string>
 
 
 namespace srecord

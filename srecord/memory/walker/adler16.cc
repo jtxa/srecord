@@ -19,7 +19,7 @@
 
 #include <srecord/memory/walker/adler16.h>
 
-#include <srecord/output.h>
+#include <srecord/adler16.h>
 
 
 srecord::memory_walker_adler16::pointer

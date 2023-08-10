@@ -19,8 +19,12 @@
 
 #include <srecord/input/filter/checksum.h>
 
-#include <srecord/interval.h>
+#include <srecord/endian.h>
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::input_filter_checksum::input_filter_checksum(

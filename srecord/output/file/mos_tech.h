@@ -20,7 +20,12 @@
 #ifndef SRECORD_OUTPUT_FILE_MOS_TECH_H
 #define SRECORD_OUTPUT_FILE_MOS_TECH_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstdint>
+#include <string>
 
 
 namespace srecord

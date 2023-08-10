@@ -20,11 +20,14 @@
 #ifndef SRECORD_INPUT_FILTER_OFFSET_H
 #define SRECORD_INPUT_FILTER_OFFSET_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 
 
 namespace srecord
 {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_offset class is used to represent a filter

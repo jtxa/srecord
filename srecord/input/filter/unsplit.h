@@ -20,8 +20,11 @@
 #ifndef SRECORD_INPUT_FILTER_UNSPLIT_H
 #define SRECORD_INPUT_FILTER_UNSPLIT_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 namespace srecord

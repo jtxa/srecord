@@ -19,9 +19,13 @@
 
 #include <srecord/input/filter/random_fill.h>
 
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/interval.h>
 #include <srecord/r250.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::input_filter_random_fill::input_filter_random_fill(

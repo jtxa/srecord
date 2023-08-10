@@ -19,8 +19,12 @@
 #ifndef SRECORD_MEMORY_WALKER_FLETCHER16_H
 #define SRECORD_MEMORY_WALKER_FLETCHER16_H
 
+#include <srecord/endian.h>
 #include <srecord/fletcher16.h>
 #include <srecord/memory/walker.h>
+
+#include <cstdint>
+#include <memory>
 
 
 namespace srecord

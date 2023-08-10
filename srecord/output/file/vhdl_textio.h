@@ -19,12 +19,18 @@
 #ifndef SRECORD_OUTPUT_FILE_VHDL_TEXTIO_H
 #define SRECORD_OUTPUT_FILE_VHDL_TEXTIO_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
+#include <string>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
 
 /**
   * The srecord::output_file_vhdl_textio class is used to represent the

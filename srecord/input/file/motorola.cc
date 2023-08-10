@@ -18,7 +18,9 @@
 
 #include <srecord/input/file/motorola.h>
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 

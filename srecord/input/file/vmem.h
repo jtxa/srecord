@@ -21,8 +21,13 @@
 
 #include <srecord/input/file.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_vmem class is used to represent the parse

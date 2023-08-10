@@ -23,7 +23,11 @@
 
 #include <srecord/output/file/os65a.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_os65a::~output_file_os65a()

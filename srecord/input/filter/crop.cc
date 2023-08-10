@@ -19,6 +19,8 @@
 
 #include <srecord/input/filter/crop.h>
 
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/interval.h>
 #include <srecord/record.h>
 

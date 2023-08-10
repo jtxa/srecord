@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/mos_tech.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_mos_tech::~output_file_mos_tech()

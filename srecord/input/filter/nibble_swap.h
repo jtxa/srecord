@@ -21,10 +21,13 @@
 #ifndef SRECORD_INPUT_FILTER_NIBBLE_SWAP_H
 #define SRECORD_INPUT_FILTER_NIBBLE_SWAP_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_nibble_swap class is used to represent the

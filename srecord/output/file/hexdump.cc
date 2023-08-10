@@ -19,9 +19,17 @@
 
 #include <srecord/output/file/hexdump.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
 
 #include <cstring>
+
+
+namespace srecord {
+
+class arglex_tool; // forward
+}  // namespace srecord
 
 
 srecord::output_file_hexdump::~output_file_hexdump()

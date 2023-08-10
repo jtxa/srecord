@@ -16,7 +16,10 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
+#include <srecord/endian.h>
+#include <srecord/output.h>
 #include <srecord/output/file/aomf.h>
 #include <srecord/output/file/ascii_hex.h>
 #include <srecord/output/file/asm.h>
@@ -64,6 +67,9 @@
 #include <srecord/output/file/vhdl_textio.h>
 #include <srecord/output/file/vmem.h>
 #include <srecord/output/file/wilson.h>
+
+#include <memory>
+#include <string>
 
 
 srecord::output::pointer

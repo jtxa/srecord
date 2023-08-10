@@ -17,14 +17,16 @@
 //      <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
-#include <srecord/input/file.h>
+#include <srecord/input.h>
 #include <srecord/memory.h>
 #include <srecord/record.h>
 
 #include <cstdlib>
 #include <iostream>
-#include <vector>
+#include <memory>
+#include <string>
 
 
 static bool

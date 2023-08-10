@@ -19,7 +19,11 @@
 
 #include <srecord/input/filter/and.h>
 
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::input_filter_and::input_filter_and(const input::pointer &a1,

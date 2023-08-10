@@ -19,7 +19,11 @@
 
 #include <srecord/output/file/ascii_hex.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::output_file_ascii_hex::~output_file_ascii_hex()

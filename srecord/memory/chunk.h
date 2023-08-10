@@ -22,6 +22,7 @@
 #include <srecord/memory/walker.h>
 
 #include <cstddef>
+#include <cstdint>
 
 
 namespace srecord {

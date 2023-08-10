@@ -21,8 +21,14 @@
 
 #include <srecord/input/file.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class arglex_tool; // forward
+class record; // forward
 
 /**
   * The srecord::input_file_motorola class is used to represent the parse

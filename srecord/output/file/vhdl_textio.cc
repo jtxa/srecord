@@ -19,8 +19,8 @@
 #include <srecord/output/file/vhdl_textio.h>
 
 #include <srecord/arglex/tool.h>
-#include <srecord/interval.h>
-#include <srecord/progname.h>
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
 
 

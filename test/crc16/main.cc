@@ -25,6 +25,7 @@
 #include <getopt.h>
 #include <unistd.h>
 
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 

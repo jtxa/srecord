@@ -19,7 +19,7 @@
 
 #include <srecord/memory/walker/crc16.h>
 
-#include <srecord/output.h>
+#include <srecord/crc16.h>
 
 
 srecord::memory_walker_crc16::~memory_walker_crc16()

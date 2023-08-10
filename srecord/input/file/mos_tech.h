@@ -21,8 +21,12 @@
 
 #include <srecord/input/file.h>
 
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The mos_tech class is used to parse a MOS Technology format file.

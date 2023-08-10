@@ -19,6 +19,7 @@
 #include <srecord/input/file/signetics.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 

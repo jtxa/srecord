@@ -24,12 +24,11 @@
 #include <srecord/sizeof.h>
 
 #include <sys/stat.h>
-#include <sys/types.h>
 
 #include <cassert>
 #include <cerrno>
+#include <cstdarg>
 #include <cstdio>
-#include <iostream>
 
 
 bool srecord::output_file::enable_header_flag = true;

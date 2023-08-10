@@ -19,9 +19,12 @@
 
 #include <srecord/output/file/ti_tagged_16.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
 
 #include <cctype>
+#include <cstddef>
 
 
 srecord::output_file_ti_tagged_16::~output_file_ti_tagged_16()

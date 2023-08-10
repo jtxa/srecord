@@ -20,11 +20,17 @@
 #ifndef SRECORD_OUTPUT_FILE_FORTH_H
 #define SRECORD_OUTPUT_FILE_FORTH_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <string>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
 
 /**
   * The srecord::output_file_forth class is used to write a file that

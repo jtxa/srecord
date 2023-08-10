@@ -20,11 +20,16 @@
 #ifndef SRECORD_INPUT_FILTER_BYTE_SWAP_H
 #define SRECORD_INPUT_FILTER_BYTE_SWAP_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 #include <srecord/record.h>
 
+#include <cstddef>
+
 
 namespace srecord {
+
+class arglex_tool; // forward
 
 /**
   * The srecord::input_filter_byte_swap class is used to reverse the

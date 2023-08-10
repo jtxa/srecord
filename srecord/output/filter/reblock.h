@@ -19,7 +19,13 @@
 #ifndef SRECORD_OUTPUT_FILTER_REBLOCK_H
 #define SRECORD_OUTPUT_FILTER_REBLOCK_H
 
+#include <srecord/output.h>
 #include <srecord/output/filter.h>
+#include <srecord/record.h>
+
+#include <cstddef>
+#include <cstdint>
+#include <memory>
 
 
 namespace srecord {

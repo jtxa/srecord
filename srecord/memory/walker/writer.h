@@ -23,8 +23,12 @@
 #include <srecord/memory/walker.h>
 #include <srecord/output.h>
 
+#include <cstdint>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::memory_walker_writer class is used to write data to an

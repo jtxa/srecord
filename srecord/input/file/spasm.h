@@ -22,8 +22,12 @@
 #include <srecord/endian.h>
 #include <srecord/input/file.h>
 
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_spasm class is used to represent the parse state

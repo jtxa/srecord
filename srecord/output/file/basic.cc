@@ -20,8 +20,11 @@
 #include <srecord/output/file/basic.h>
 
 #include <srecord/interval.h>
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
 
+#include <cctype>
 #include <cstdio>
 #include <cstring>
 

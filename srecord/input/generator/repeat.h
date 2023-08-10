@@ -20,7 +20,13 @@
 #ifndef SRECORD_INPUT_GENERATOR_REPEAT_H
 #define SRECORD_INPUT_GENERATOR_REPEAT_H
 
+#include <srecord/input.h>
 #include <srecord/input/generator.h>
+#include <srecord/interval.h>
+
+#include <cstddef>
+#include <cstdint>
+#include <string>
 
 
 namespace srecord

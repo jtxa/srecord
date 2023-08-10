@@ -19,6 +19,10 @@
 
 #include <srecord/input/filter/checksum/positive.h>
 
+#include <srecord/endian.h>
+#include <srecord/input.h>
+#include <srecord/input/filter/checksum.h>
+
 
 srecord::input_filter_checksum_positive::input_filter_checksum_positive(
         const input::pointer &a1, int a2, int a3, endian_t a_end, int a5) :

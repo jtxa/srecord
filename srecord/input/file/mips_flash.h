@@ -22,8 +22,13 @@
 #include <srecord/endian.h>
 #include <srecord/input/file.h>
 
+#include <cstdint>
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_mips_flash class is used to represent the

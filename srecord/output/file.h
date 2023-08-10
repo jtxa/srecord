@@ -22,7 +22,9 @@
 
 #include <srecord/format_printf.h>
 #include <srecord/output.h>
+#include <srecord/record.h>
 
+#include <cstdint>
 #include <string>
 
 

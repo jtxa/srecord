@@ -19,6 +19,10 @@
 
 #include <srecord/input/generator/constant.h>
 
+#include <srecord/input.h>
+#include <srecord/input/generator.h>
+#include <srecord/interval.h>
+
 #include <cstdio>
 
 

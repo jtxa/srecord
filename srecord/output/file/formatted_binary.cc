@@ -19,6 +19,8 @@
 
 #include <srecord/output/file/formatted_binary.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
 
 

@@ -20,11 +20,14 @@
 #ifndef SRECORD_INPUT_FILTER_NOT_H
 #define SRECORD_INPUT_FILTER_NOT_H
 
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 
 
 namespace srecord
 {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_not class is used to represent an input stream

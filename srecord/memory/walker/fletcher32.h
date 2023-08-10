@@ -22,6 +22,9 @@
 #include <srecord/fletcher32.h>
 #include <srecord/memory/walker.h>
 
+#include <cstdint>
+#include <memory>
+
 
 namespace srecord
 {

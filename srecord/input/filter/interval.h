@@ -20,11 +20,14 @@
 #define SRECORD_INPUT_FILTER_INTERVAL_H
 
 #include <srecord/endian.h>
+#include <srecord/input.h>
 #include <srecord/input/filter.h>
 #include <srecord/interval.h>
 
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_filter_interval class is used to represent a filter

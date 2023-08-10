@@ -19,6 +19,16 @@
 
 #include <srecord/input/filter.h>
 
+#include <srecord/input.h>
+
+#include <memory>
+
+
+namespace srecord {
+
+class record; // forward
+}  // namespace srecord
+
 
 srecord::input_filter::input_filter(srecord::input::pointer arg) :
     ifp(arg)

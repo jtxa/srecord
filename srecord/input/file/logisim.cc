@@ -19,6 +19,8 @@
 #include <srecord/input/file/logisim.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
+#include <srecord/record.h>
 #include <srecord/string.h>
 
 #include <cassert>

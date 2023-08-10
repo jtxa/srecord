@@ -20,7 +20,12 @@
 #ifndef SRECORD_OUTPUT_FILE_ASCII_HEX_H
 #define SRECORD_OUTPUT_FILE_ASCII_HEX_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstdint>
+#include <string>
 
 
 namespace srecord

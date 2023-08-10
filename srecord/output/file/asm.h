@@ -21,11 +21,18 @@
 #define SRECORD_OUTPUT_FILE_ASM_H
 
 #include <srecord/interval.h>
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstdint>
+#include <string>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
 
 /**
   * The srecord::output_file_asm class is used to represent an output file

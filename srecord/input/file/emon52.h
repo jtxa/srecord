@@ -21,8 +21,12 @@
 
 #include <srecord/input/file.h>
 
+#include <string>
+
 
 namespace srecord {
+
+class record; // forward
 
 /**
   * The srecord::input_file_emon52 class is used to parse an EMON52

@@ -18,6 +18,8 @@
 
 #include <srecord/quit/prefix.h>
 
+#include <srecord/quit.h>
+
 #include <cstdarg>
 #include <cstdio>
 

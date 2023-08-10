@@ -24,7 +24,11 @@
 #ifndef SRECORD_OUTPUT_FILE_OS65A_H
 #define SRECORD_OUTPUT_FILE_OS65A_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <string>
 
 
 namespace srecord

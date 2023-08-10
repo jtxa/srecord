@@ -19,7 +19,10 @@
 #include <srecord/input/file/mos_tech.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::input_file_mos_tech::input_file_mos_tech(

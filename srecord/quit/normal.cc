@@ -20,11 +20,20 @@
 
 #include <srecord/progname.h>
 
+#include <cctype>
 #include <cstdarg>
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
+#include <string>
+
+
+namespace srecord {
+
+class quit; // forward
+}  // namespace srecord
 
 
 void

@@ -47,8 +47,10 @@
 #include <srecord/input/file/hp64k.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
+#include <cstddef>
 #include <cstdint>
 
 

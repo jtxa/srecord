@@ -18,10 +18,12 @@
 
 #include <srecord/output/file/logisim.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
 
 #include <cassert>
-#include <cstdio>  // for snprintf
+#include <cstdio>
 #include <cstring>
 
 

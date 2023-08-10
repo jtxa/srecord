@@ -19,7 +19,13 @@
 #ifndef SRECORD_OUTPUT_FILE_IDT_H
 #define SRECORD_OUTPUT_FILE_IDT_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstddef>
+#include <cstdint>
+#include <string>
 
 
 namespace srecord {

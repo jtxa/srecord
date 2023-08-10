@@ -18,9 +18,9 @@
 
 #include <srecord/output/file/ppb.h>
 
+#include <srecord/output.h>
+#include <srecord/output/file.h>
 #include <srecord/record.h>
-
-#include <cstring>
 
 
 srecord::output_file_ppb::~output_file_ppb()

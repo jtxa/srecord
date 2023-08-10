@@ -19,7 +19,11 @@
 
 #include <srecord/input/filter/unsplit.h>
 
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::input_filter_unsplit::input_filter_unsplit(

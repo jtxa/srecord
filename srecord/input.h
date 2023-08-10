@@ -21,7 +21,6 @@
 
 #include <srecord/format_printf.h>
 
-#include <cstdarg>
 #include <memory>
 #include <string>
 

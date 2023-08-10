@@ -19,10 +19,10 @@
 #include <srecord/input/file/gowin_fs.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
-#include <cctype>
-#include <iostream>
+#include <cstdio>
 
 
 srecord::input_file_gowin_fs::input_file_gowin_fs(

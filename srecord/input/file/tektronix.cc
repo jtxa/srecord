@@ -19,7 +19,10 @@
 #include <srecord/input/file/tektronix.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
+
+#include <cstdint>
 
 
 srecord::input_file_tektronix::input_file_tektronix(

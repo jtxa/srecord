@@ -20,11 +20,19 @@
 #ifndef SRECORD_OUTPUT_FILE_HEXDUMP_H
 #define SRECORD_OUTPUT_FILE_HEXDUMP_H
 
+#include <srecord/output.h>
 #include <srecord/output/file.h>
+#include <srecord/record.h>
+
+#include <cstddef>
+#include <cstdint>
+#include <string>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
 
 /**
   * The srecord::output_file_hexdump class is used to represent an output

@@ -34,8 +34,9 @@
 #include <srecord/quit.h>
 #include <srecord/sizeof.h>
 
+#include <strings.h>
+
 #include <cstdio>
-#include <cstring>
 #include <string>
 
 

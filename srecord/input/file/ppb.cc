@@ -19,9 +19,8 @@
 #include <srecord/input/file/ppb.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
-
-#include <cassert>
 
 
 srecord::input_file_ppb::input_file_ppb(const std::string &filename) :

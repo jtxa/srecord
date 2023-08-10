@@ -17,12 +17,14 @@
 // <http://www.gnu.org/licenses/>.
 //
 
+#include <srecord/arglex.h>
 #include <srecord/arglex/tool.h>
 #include <srecord/input.h>
 #include <srecord/input/interval.h>
 #include <srecord/interval.h>
 
 #include <climits>
+#include <cstdint>
 
 
 srecord::interval

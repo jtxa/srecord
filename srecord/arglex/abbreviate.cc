@@ -18,6 +18,10 @@
 
 #include <srecord/arglex.h>
 
+#include <cctype>
+#include <cstdint>
+#include <string>
+
 
 std::string
 srecord::arglex::abbreviate(const char *s)

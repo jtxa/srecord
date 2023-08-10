@@ -19,6 +19,7 @@
 #include <srecord/input/file/four_packed_code.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 

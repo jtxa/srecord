@@ -18,7 +18,7 @@
 
 #include <srecord/fletcher16.h>
 
-#include <cassert>
+#include <srecord/endian.h>
 
 
 //

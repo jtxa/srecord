@@ -24,6 +24,7 @@
 #include <srecord/input/file/os65a.h>
 
 #include <srecord/arglex/tool.h>
+#include <srecord/input/file.h>
 #include <srecord/record.h>
 
 

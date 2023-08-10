@@ -19,13 +19,18 @@
 #ifndef SRECORD_INPUT_FILTER_MESSAGE_ADLER16_H
 #define SRECORD_INPUT_FILTER_MESSAGE_ADLER16_H
 
-#include <srecord/adler16.h>
 #include <srecord/endian.h>
+#include <srecord/input.h>
 #include <srecord/input/filter/message.h>
+
+#include <cstdint>
 
 
 namespace srecord
 {
+
+class memory; // forward
+class record; // forward
 
 /**
   * The srecord::input_filter_message_adler16 class is used to represent the

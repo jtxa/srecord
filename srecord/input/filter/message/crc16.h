@@ -22,11 +22,18 @@
 
 #include <srecord/crc16.h>
 #include <srecord/endian.h>
+#include <srecord/input.h>
 #include <srecord/input/filter/message.h>
+
+#include <cstdint>
 
 
 namespace srecord
 {
+
+class arglex_tool; // forward
+class memory; // forward
+class record; // forward
 
 /**
   * The srecord::input_filter_message_crc16 class is used to represent the

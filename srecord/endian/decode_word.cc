@@ -18,6 +18,8 @@
 
 #include <srecord/endian.h>
 
+#include <cstdint>
+
 
 uint16_t
 srecord::decode_word_le(const uint8_t *data)

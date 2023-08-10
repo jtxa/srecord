@@ -19,7 +19,11 @@
 #include <srecord/input/filter/bitrev.h>
 
 #include <srecord/bitrev.h>
+#include <srecord/input.h>
+#include <srecord/input/filter.h>
 #include <srecord/record.h>
+
+#include <cstddef>
 
 
 srecord::input_filter_bitrev::input_filter_bitrev(
